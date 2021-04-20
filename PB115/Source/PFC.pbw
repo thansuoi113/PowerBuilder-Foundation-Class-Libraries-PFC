@@ -1,0 +1,14 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "pfcapp\\generic_pfc_app.pbt";
+ 1 "demoapp\\peat demo app.pbt";
+ 2 "pfcmsg\\message manager.pbt";
+ 3 "security\\pfcsecad\\security administrator.pbt";
+ 4 "tutorial\\pfctutor.pbt";
+ 5 "security\\pfcsecsc\\security scanner.pbt";
+ 6 "examples\\appexamp\\PFC Examples.pbt";
+@end;
+DefaultTarget "examples\\appexamp\\PFC Examples.pbt";
+DefaultRemoteTarget "examples\\appexamp\\PFC Examples.pbt";

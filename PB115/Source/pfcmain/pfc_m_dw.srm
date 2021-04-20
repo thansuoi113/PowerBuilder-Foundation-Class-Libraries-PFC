@@ -1,0 +1,419 @@
+HA$PBExportHeader$pfc_m_dw.srm
+$PBExportComments$PFC datawindow menu class
+forward
+global type pfc_m_dw from menu
+end type
+type m_table from menu within pfc_m_dw
+end type
+type m_cut from menu within m_table
+end type
+type m_copy from menu within m_table
+end type
+type m_paste from menu within m_table
+end type
+type m_selectall from menu within m_table
+end type
+type m_dash11 from menu within m_table
+end type
+type m_insert from menu within m_table
+end type
+type m_addrow from menu within m_table
+end type
+type m_delete from menu within m_table
+end type
+type m_restorerow from menu within m_table
+end type
+type m_dash12 from menu within m_table
+end type
+type m_columns from menu within m_table
+end type
+type m_functions from menu within m_table
+end type
+type m_operators from menu within m_table
+end type
+type m_values from menu within m_table
+end type
+type m_dash13 from menu within m_table
+end type
+type m_debug from menu within m_table
+end type
+type m_properties from menu within m_table
+end type
+type m_table from menu within pfc_m_dw
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_selectall m_selectall
+m_dash11 m_dash11
+m_insert m_insert
+m_addrow m_addrow
+m_delete m_delete
+m_restorerow m_restorerow
+m_dash12 m_dash12
+m_columns m_columns
+m_functions m_functions
+m_operators m_operators
+m_values m_values
+m_dash13 m_dash13
+m_debug m_debug
+m_properties m_properties
+end type
+end forward
+
+global type pfc_m_dw from menu
+m_table m_table
+end type
+global pfc_m_dw pfc_m_dw
+
+type variables
+Protected:
+datawindow	idw_parent
+end variables
+
+forward prototypes
+public function integer of_setparent (datawindow adw_parent)
+end prototypes
+
+public function integer of_setparent (datawindow adw_parent);//////////////////////////////////////////////////////////////////////////////
+//
+//	Function:  of_SetParent
+//
+//	Access:  public
+//
+//	Arguments:
+//	adw_parent   parent object of the menu
+//
+//	Returns:  integer
+//	 1 = success
+//	-1 = failure, parent reference is not valid
+//
+//	Description:  Sets the parent object of this menu
+//
+//////////////////////////////////////////////////////////////////////////////
+//
+//	Revision History
+//
+//	Version
+//	5.0   Initial version
+//
+//////////////////////////////////////////////////////////////////////////////
+//
+/*
+ * Open Source PowerBuilder Foundation Class Libraries
+ *
+ * Copyright (c) 2004-2005, All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted in accordance with the GNU Lesser General
+ * Public License Version 2.1, February 1999
+ *
+ * http://www.gnu.org/copyleft/lesser.html
+ *
+ * ====================================================================
+ *
+ * This software consists of voluntary contributions made by many
+ * individuals and was originally based on software copyright (c) 
+ * 1996-2004 Sybase, Inc. http://www.sybase.com.  For more
+ * information on the Open Source PowerBuilder Foundation Class
+ * Libraries see http://pfc.codexchange.sybase.com
+*/
+//
+//////////////////////////////////////////////////////////////////////////////
+
+integer	li_rc = 1
+
+if IsValid (adw_parent) then
+	idw_parent = adw_parent
+else
+	li_rc = -1
+end if
+
+return li_rc
+end function
+
+on pfc_m_dw.create
+pfc_m_dw=this
+this.m_table=create m_table
+this.Item[]={this.m_table}
+end on
+
+on pfc_m_dw.destroy
+destroy(this.m_table)
+end on
+
+type m_table from menu within pfc_m_dw
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_selectall m_selectall
+m_dash11 m_dash11
+m_insert m_insert
+m_addrow m_addrow
+m_delete m_delete
+m_restorerow m_restorerow
+m_dash12 m_dash12
+m_columns m_columns
+m_functions m_functions
+m_operators m_operators
+m_values m_values
+m_dash13 m_dash13
+m_debug m_debug
+m_properties m_properties
+end type
+
+on m_table.create
+this.Text="&Table"
+this.m_cut=create m_cut
+this.m_copy=create m_copy
+this.m_paste=create m_paste
+this.m_selectall=create m_selectall
+this.m_dash11=create m_dash11
+this.m_insert=create m_insert
+this.m_addrow=create m_addrow
+this.m_delete=create m_delete
+this.m_restorerow=create m_restorerow
+this.m_dash12=create m_dash12
+this.m_columns=create m_columns
+this.m_functions=create m_functions
+this.m_operators=create m_operators
+this.m_values=create m_values
+this.m_dash13=create m_dash13
+this.m_debug=create m_debug
+this.m_properties=create m_properties
+this.Item[]={this.m_cut, &
+this.m_copy, &
+this.m_paste, &
+this.m_selectall, &
+this.m_dash11, &
+this.m_insert, &
+this.m_addrow, &
+this.m_delete, &
+this.m_restorerow, &
+this.m_dash12, &
+this.m_columns, &
+this.m_functions, &
+this.m_operators, &
+this.m_values, &
+this.m_dash13, &
+this.m_debug, &
+this.m_properties}
+end on
+
+on m_table.destroy
+destroy(this.m_cut)
+destroy(this.m_copy)
+destroy(this.m_paste)
+destroy(this.m_selectall)
+destroy(this.m_dash11)
+destroy(this.m_insert)
+destroy(this.m_addrow)
+destroy(this.m_delete)
+destroy(this.m_restorerow)
+destroy(this.m_dash12)
+destroy(this.m_columns)
+destroy(this.m_functions)
+destroy(this.m_operators)
+destroy(this.m_values)
+destroy(this.m_dash13)
+destroy(this.m_debug)
+destroy(this.m_properties)
+end on
+
+type m_cut from menu within m_table
+end type
+
+on m_cut.create
+this.Text="C&ut"
+this.Microhelp="Moves the selection to the Clipboard"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_cut()
+end event
+
+type m_copy from menu within m_table
+end type
+
+on m_copy.create
+this.Text="&Copy"
+this.Microhelp="Copies the selection to the Clipboard"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_copy()
+end event
+
+type m_paste from menu within m_table
+end type
+
+on m_paste.create
+this.Text="&Paste"
+this.Microhelp="Inserts Clipboard contents at current insertion point"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_paste()
+end event
+
+type m_selectall from menu within m_table
+end type
+
+on m_selectall.create
+this.Text="Select A&ll"
+this.Microhelp="Selects all items or information"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_selectall()
+end event
+
+type m_dash11 from menu within m_table
+end type
+
+on m_dash11.create
+this.Text="-"
+end on
+
+type m_insert from menu within m_table
+end type
+
+on m_insert.create
+this.Text="&Insert"
+this.Microhelp="Inserts a new row"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_insertrow()
+end event
+
+type m_addrow from menu within m_table
+end type
+
+event clicked;idw_parent.dynamic event pfc_addrow()
+end event
+
+on m_addrow.create
+this.Text="&Add"
+this.Microhelp="Adds a new row to the end"
+this.Enabled=false
+end on
+
+type m_delete from menu within m_table
+end type
+
+on m_delete.create
+this.Text="&Delete"
+this.Microhelp="Deletes selected rows"
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_deleterow()
+end event
+
+type m_restorerow from menu within m_table
+end type
+
+event clicked;idw_parent.dynamic event pfc_restorerow()
+end event
+
+on m_restorerow.create
+this.Text="Re&store..."
+this.Microhelp="Restores rows that have been deleted"
+this.Visible=false
+this.Enabled=false
+end on
+
+type m_dash12 from menu within m_table
+end type
+
+on m_dash12.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_columns from menu within m_table
+end type
+
+on m_columns.create
+this.Text="C&olumns..."
+this.Microhelp="Select from a list of available column names"
+this.Visible=false
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_columns()
+end event
+
+type m_functions from menu within m_table
+end type
+
+on m_functions.create
+this.Text="&Functions..."
+this.Microhelp="Select from a list of available functions"
+this.Visible=false
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_functions()
+end event
+
+type m_operators from menu within m_table
+end type
+
+event clicked;idw_parent.dynamic event pfc_operators()
+end event
+
+on m_operators.create
+this.Text="Op&erators..."
+this.Microhelp="Select from a list of available operators"
+this.Visible=false
+this.Enabled=false
+end on
+
+type m_values from menu within m_table
+end type
+
+on m_values.create
+this.Text="&Values..."
+this.Microhelp="Select from a list of available values"
+this.Visible=false
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_values()
+end event
+
+type m_dash13 from menu within m_table
+end type
+
+on m_dash13.create
+this.Text="-"
+this.Visible=false
+this.ShiftToRight=true
+end on
+
+type m_debug from menu within m_table
+end type
+
+on m_debug.create
+this.Text="Data&Window Properties..."
+this.Microhelp="Displays or changes properties of the DataWindow"
+this.Visible=false
+this.ShiftToRight=true
+this.Enabled=false
+end on
+
+event clicked;idw_parent.dynamic event pfc_debug()
+end event
+
+type m_properties from menu within m_table
+end type
+
+on m_properties.create
+this.Text="P&roperties"
+this.Microhelp="Displays or changes properties of the item"
+this.Visible=false
+this.ShiftToRight=true
+this.Enabled=false
+end on
+
