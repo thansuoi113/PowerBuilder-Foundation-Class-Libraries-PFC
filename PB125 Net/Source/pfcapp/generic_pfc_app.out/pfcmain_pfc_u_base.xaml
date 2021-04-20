@@ -1,0 +1,4 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="pfc_u_base" BackColor="79741120" PBHeight="740" Height="184" PBWidth="1330" Width="290" PictureMaskColor="553648127" TabBackColor="79741120" TabTextColor="33554432">
+	<Canvas>
+	</Canvas>
+</pbwpf:UserObject>

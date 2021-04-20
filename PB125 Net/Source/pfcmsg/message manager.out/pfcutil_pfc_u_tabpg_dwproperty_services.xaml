@@ -1,0 +1,13 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="pfc_u_tabpg_dwproperty_services" BackColor="80263328" PBHeight="1384" Height="345" PBWidth="1765" Width="385" PictureMaskColor="553648127" TabBackColor="79741120" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:GroupBox Name="gb_description" PBHeight="480" Height="119" PBWidth="1696" Width="370" TabOrder="0" Text="Description:" X="32" Y="880" BackColor="80263581" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" Weight="400">
+            <Canvas></Canvas>
+        </pbwpf:GroupBox>
+        <pbwpf:MultiLineEdit Name="mle_description" BackColor="80263328" Border="false" BorderStyle="stylebox" DisplayOnly="true" PBHeight="360" Height="89" PBWidth="1582" Width="345" TabOrder="0" Text="Description Text" X="82" Y="964" AutoVScroll="true" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:MultiLineEdit>
+        <pbwpf:CommandButton Name="cb_disable" PBWidth="375" Width="81" TabOrder="30" Text="_Disable" X="946" Y="764" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:CommandButton Name="cb_enable" PBWidth="375" Width="81" TabOrder="20" Text="_Enable" X="553" Y="764" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:CommandButton Name="cb_property" PBWidth="375" Width="81" TabOrder="40" Text="_Property" X="1344" Y="764" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:StaticText Name="st_servicesavailable" PBWidth="1723" Width="376" Text="The following Services are accessible:" X="27" Y="36" BackColor="80263581" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:DataWindow Name="dw_services" DataObject="d_dwproperty_services" PBHeight="612" Height="152" PBWidth="1696" Width="370" TabOrder="10" X="32" Y="116" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

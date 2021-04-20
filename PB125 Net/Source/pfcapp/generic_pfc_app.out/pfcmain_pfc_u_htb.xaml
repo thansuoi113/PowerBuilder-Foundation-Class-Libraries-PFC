@@ -1,0 +1,2 @@
+<pbwpf:HTrackBar xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="pfc_u_htb" DragIcon="none!" MaxPosition="100" PBHeight="102" Height="25" PBTickFrequency="10" PBWidth="468" Width="102" Pointer="Arrow!">
+</pbwpf:HTrackBar>

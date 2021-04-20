@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>exmmain</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{6eac2560-fc24-4142-b8c4-c3cb2db9f29e}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>exmmain</AssemblyName>
+    <RootNamespace>exmmain</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="n_tr.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_calendar.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_frame.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_master.srw">
+      <Comment>Extended for PFC Examples Application.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="u_calendar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_calendar.sru</DependentUpon>
+    </Page>
+    <Page Include="w_frame.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_frame.srw</DependentUpon>
+    </Page>
+    <Page Include="w_master.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_master.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

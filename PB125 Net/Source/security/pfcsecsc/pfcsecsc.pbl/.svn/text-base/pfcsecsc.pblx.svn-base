@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfcsecsc</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{008f868d-8b5b-475a-a92d-47305e4224fe}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfcsecsc</AssemblyName>
+    <RootNamespace>pfcsecsc</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="d_pfcsecurity_templateupdate.srd">
+      <Comment>PFC Security - Update the template table</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_objectlist.srd">
+      <Comment>Lists all of the windows for an application</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_userlookup.srd">
+      <Comment>PFC Security - Retrieve the information about a user or group</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_allcontrollist.srd">
+      <Comment>PFC Security - settings for a user</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_applookup.srd">
+      <Comment>PFC Security - Verify the existance of an application in the database</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_controllist.srd">
+      <Comment>PFC Security - Retrieve the controls for an application, window, user ID combination</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_grouplookup.srd">
+      <Comment>PFC Security - Retrieve the groups that a user belongs to</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pfcsecurity_groupverify.srd">
+      <Comment>PFC Security - Verify the existance of a group in the database</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcsecurity_scanner.sra">
+      <Comment>PFC Security Scanner Application</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pfcsecurity_objectlist.srw">
+      <Comment>List the windows in the application and scans the ones selected</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pfcsecurity_targetselection.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_string.sru">
+      <Comment>A copy of the PFC_n_cst_string service object from the PFCAPSRV.PBL. Renamed to pfcscanner_n_cst_string.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="f_setfilesrv.srf">
+      <Comment>PFC File Service Create/Destroy</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrvunicode.sru">
+      <Comment>PFC Unicode File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrv.sru">
+      <Comment>PFC File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrvhpux.sru">
+      <Comment>PFC hpux File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrvsol2.sru">
+      <Comment>PFC Solaris File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrvwin32.sru">
+      <Comment>PFC Win32 File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_securityscanner.sru">
+      <Comment>PFC Security Scanner service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_ds.sru">
+      <Comment>Datastore object used by scanner process.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_u_dw.sru">
+      <Comment>Datawindow Object used on scanner dialogs</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcscanner_n_cst_filesrvaix.sru">
+      <Comment>PFC aix File Handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="base_librarylist.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_pfcsecurity_objectlist.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pfcsecurity_objectlist.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pfcsecurity_targetselection.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pfcsecurity_targetselection.srw</DependentUpon>
+    </Page>
+    <Page Include="pfcscanner_u_dw.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>pfcscanner_u_dw.sru</DependentUpon>
+    </Page>
+    <Page Include="base_librarylist.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>base_librarylist.sru</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p_pfcsecurity_scanner_wpf.srj">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

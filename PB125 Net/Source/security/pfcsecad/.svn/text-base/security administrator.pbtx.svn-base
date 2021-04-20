@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>security administrator.pbtx</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{4d505250-39c1-499c-9a78-6a3172596e43}</ProjectGuid>
+    <Comment>Migrated by PB WPF migration tool</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>security administrator</AssemblyName>
+    <RootNamespace>security administrator</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>pfcsecurity_admin</ApplicationName>
+    <ApplicationObject>pfcsecurity_admin.sra</ApplicationObject>
+    <ApplicationLibrary>pfcsecad.pbl\pfcsecad.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{d9ce475f-970e-44af-b2b5-581a8f08ff26};{fc54ac9e-0daf-42ba-8007-a4b33e21c249};{feb91f62-8442-4389-8ac9-ede9dfaf5c46};{6bec4583-989d-4c0e-bdcd-ea6fadf2430f};{4caa9104-2821-4a47-aa2e-7db8f3a25c72};{530cd580-d4c3-456e-820c-a7574ba60191};{113126aa-0baa-4f27-9209-54847f70fd1a};{4ff28c57-ef86-419a-9a45-72671969fde8};{3a346142-fd0c-452a-b420-196aca4f0975};{66ee63e9-b7c2-41f7-be0e-738215ca10ad};{972c12bc-4a42-4d58-bc74-0519a8905668}</LibraryList>
+    <PBProjectsDeploy>{d9ce475f-970e-44af-b2b5-581a8f08ff26},p_pfcsecurity_admin_wpf.srj,41Fxx;</PBProjectsDeploy>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>security administrator.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>security administrator.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins" />
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="pfcwnsrv.pbl\pfcwnsrv.pblx">
+      <Name>pfcwnsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{972c12bc-4a42-4d58-bc74-0519a8905668}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcutil.pbl\pfcutil.pblx">
+      <Name>pfcutil</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{66ee63e9-b7c2-41f7-be0e-738215ca10ad}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcmain.pbl\pfcmain.pblx">
+      <Name>pfcmain</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{3a346142-fd0c-452a-b420-196aca4f0975}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcdwsrv.pbl\pfcdwsrv.pblx">
+      <Name>pfcdwsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{4ff28c57-ef86-419a-9a45-72671969fde8}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcapsrv.pbl\pfcapsrv.pblx">
+      <Name>pfcapsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{113126aa-0baa-4f27-9209-54847f70fd1a}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfewnsrv.pbl\pfewnsrv.pblx">
+      <Name>pfewnsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{530cd580-d4c3-456e-820c-a7574ba60191}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfeutil.pbl\pfeutil.pblx">
+      <Name>pfeutil</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{4caa9104-2821-4a47-aa2e-7db8f3a25c72}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfemain.pbl\pfemain.pblx">
+      <Name>pfemain</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{6bec4583-989d-4c0e-bdcd-ea6fadf2430f}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfedwsrv.pbl\pfedwsrv.pblx">
+      <Name>pfedwsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{feb91f62-8442-4389-8ac9-ede9dfaf5c46}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfeapsrv.pbl\pfeapsrv.pblx">
+      <Name>pfeapsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{fc54ac9e-0daf-42ba-8007-a4b33e21c249}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcsecad.pbl\pfcsecad.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>pfcsecad</Name>
+      <InstanceGuid>{d9ce475f-970e-44af-b2b5-581a8f08ff26}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pfcsecad.ini">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

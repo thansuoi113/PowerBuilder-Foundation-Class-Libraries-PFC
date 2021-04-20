@@ -1,0 +1,6 @@
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\bin\Debug\generic_pfc_app.resource.dll
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\bin\Debug\generic_pfc_app.resource.pdb
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\obj\Debug\generic_pfc_app.resource.g.resources
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\obj\Debug\generic_pfc_app.resource.dll
+C:\pfc\12.Net\pfcapp\generic_pfc_app.out\obj\Debug\generic_pfc_app.resource.pdb

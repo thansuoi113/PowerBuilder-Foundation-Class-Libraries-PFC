@@ -1,0 +1,6 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_salesreptab" BackColor="77633680" PBHeight="612" Height="152" PBWidth="2912" Width="636" PictureMaskColor="12632256" PictureName="editstops5!" PowerTipText="Filters to the sales representative for the selected sales order" TabBackColor="77633680" Text="Sales Representative (by Filter)" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:Picture Name="p_1" OriginalSize="true" PBHeight="64" Height="15" PBWidth="73" Width="15" PictureName="rowind.bmp" X="2729" Y="328" FocusRectangle="false"></pbwpf:Picture>
+        <pbwpf:DataWindow Name="dw_1" DataObject="d_salesreptab" PBHeight="560" Height="139" PBVScrollBar="false" PBWidth="2450" Width="535" X="32" Y="24" BorderStyle="stylelowered" LiveScroll="true" TabOrder="1"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

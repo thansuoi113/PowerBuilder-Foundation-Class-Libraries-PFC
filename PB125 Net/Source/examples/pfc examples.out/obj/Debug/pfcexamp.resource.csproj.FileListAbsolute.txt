@@ -1,0 +1,6 @@
+C:\pfc\12.Net\examples\PFC Examples.out\bin\Debug\pfcexamp.resource.dll
+C:\pfc\12.Net\examples\PFC Examples.out\bin\Debug\pfcexamp.resource.pdb
+C:\pfc\12.Net\examples\PFC Examples.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\examples\PFC Examples.out\obj\Debug\pfcexamp.resource.g.resources
+C:\pfc\12.Net\examples\PFC Examples.out\obj\Debug\pfcexamp.resource.dll
+C:\pfc\12.Net\examples\PFC Examples.out\obj\Debug\pfcexamp.resource.pdb

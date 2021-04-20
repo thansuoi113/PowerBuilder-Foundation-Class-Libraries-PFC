@@ -1,0 +1,2 @@
+<pbwpf:RichTextEdit xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="pfc_u_rte" BorderStyle="stylelowered" PBHeight="244" Height="60" PBWidth="343" Width="74" TabOrder="1">
+</pbwpf:RichTextEdit>

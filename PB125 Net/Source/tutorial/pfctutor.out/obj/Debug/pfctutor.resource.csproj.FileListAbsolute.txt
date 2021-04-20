@@ -1,0 +1,6 @@
+C:\pfc\12.Net\tutorial\pfctutor.out\bin\Debug\pfctutor.resource.dll
+C:\pfc\12.Net\tutorial\pfctutor.out\bin\Debug\pfctutor.resource.pdb
+C:\pfc\12.Net\tutorial\pfctutor.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\tutorial\pfctutor.out\obj\Debug\pfctutor.resource.g.resources
+C:\pfc\12.Net\tutorial\pfctutor.out\obj\Debug\pfctutor.resource.dll
+C:\pfc\12.Net\tutorial\pfctutor.out\obj\Debug\pfctutor.resource.pdb

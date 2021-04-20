@@ -1,0 +1,18 @@
+			PBCompiler Report: 12/10/2010 8:37:22 AM
+
+Argument List for Sybase.PowerBuilder.Compiler:
+	/t:wpf
+	/pbt:"C:\pfc\12.Net\pfcmsg\message manager.pbtx"
+	/a:pfcmsg
+	/o:"C:\pfc\12.Net\pfcmsg\Message Manager.out"
+	/debug:+
+	/debugsymbol:+
+	/oname:pfcmsg
+	/r:"c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll";"C:\Program Files (x86)\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll";"c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsFormsIntegration.dll"
+	/rebuild:incremental
+	/rebuildapp:-
+	/resdll:+
+	/NoUFWarn:-
+
+IPBCompiler.Report() output:
+

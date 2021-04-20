@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>security scanner.pbtx</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{70080e7a-312a-481d-85a9-f206fd9b61cd}</ProjectGuid>
+    <Comment>Migrated by PB WPF migration tool</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>security scanner</AssemblyName>
+    <RootNamespace>security scanner</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>pfcsecurity_scanner</ApplicationName>
+    <ApplicationObject>pfcsecurity_scanner.sra</ApplicationObject>
+    <ApplicationLibrary>pfcsecsc.pbl\pfcsecsc.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{008f868d-8b5b-475a-a92d-47305e4224fe}</LibraryList>
+    <PBProjectsDeploy>{008f868d-8b5b-475a-a92d-47305e4224fe},p_pfcsecurity_scanner_wpf.srj,41Fxx;</PBProjectsDeploy>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>security scanner.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>security scanner.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins" />
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="pfcsecsc.pbl\pfcsecsc.pblx">
+      <Name>pfcsecsc</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{008f868d-8b5b-475a-a92d-47305e4224fe}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pfcsecad.ini">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

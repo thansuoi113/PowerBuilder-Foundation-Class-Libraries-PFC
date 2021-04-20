@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfcwnsrv</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{838ab01f-ffbb-438e-a48d-bee42039dbee}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfcwnsrv</AssemblyName>
+    <RootNamespace>pfcwnsrv</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="d_toolbars.srd">
+      <Comment>PFC Display toolbars</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv_sheetmanager.sru">
+      <Comment>PFC Window  Sheet Manager service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv_statusbar.sru">
+      <Comment>PFC Widow Statusbar service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_m_master.srm">
+      <Comment>PFC Master menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv_statusbarattrib.sru">
+      <Comment>PFC Widow Statusbar attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_toolbarattrib.sru">
+      <Comment>PFC Toolbar attributes used by the Toolbar window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv_sheetmanagerattrib.sru">
+      <Comment>PFC Window  Sheet Manager attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_menu.sru">
+      <Comment>PFC Menu service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_resize.sru">
+      <Comment>PFC Resize service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_w_statusbar.srw">
+      <Comment>PFC Statusbar window window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_resizeattrib.sru">
+      <Comment>PFC Resize attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv.sru">
+      <Comment>PFC Base Window service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_w_toolbars.srw">
+      <Comment>PFC Customizable Toolbars window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfc_n_cst_winsrv_preference.sru">
+      <Comment>PFC Window Preferences service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="pfc_w_statusbar.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>pfc_w_statusbar.srw</DependentUpon>
+    </Page>
+    <Page Include="pfc_w_toolbars.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>pfc_w_toolbars.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

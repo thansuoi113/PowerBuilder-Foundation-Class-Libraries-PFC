@@ -1,0 +1,5 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_custinfotab" BackColor="77633680" PBHeight="612" Height="152" PBWidth="2528" Width="552" PictureMaskColor="12632256" PictureName="picture!" PowerTipText="Scrolls to the customer information for selected sales order" TabBackColor="77633680" Text="Scroll to Customer Information" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_1" DataObject="d_custtab" PBHeight="560" Height="139" PBVScrollBar="false" PBWidth="2455" Width="536" X="32" Y="24" BorderStyle="stylelowered" LiveScroll="true" TabOrder="1"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

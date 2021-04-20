@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfeapsrv</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{ddd408fd-5ada-4872-8828-bc8a15bb7efb}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfeapsrv</AssemblyName>
+    <RootNamespace>pfeapsrv</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="n_cst_splashattrib.sru">
+      <Comment>Extension Splash attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_security.sru">
+      <Comment>Extension Security Service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_returnattrib.sru">
+      <Comment>Extension Simple return attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_rtefind.sru">
+      <Comment>Extension RTE Find/Replace service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_stack.sru">
+      <Comment>Extension Stack List service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_queue.sru">
+      <Comment>Extension Queue List service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_sql.sru">
+      <Comment>Extension SQL Service service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_mru.sru">
+      <Comment>Extension Most Recently Used service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_nodecomparebase.sru">
+      <Comment>Extension Node Compare Base class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_nodebase.sru">
+      <Comment>Extension Node Base class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_metaclass.sru">
+      <Comment>Extension Metaclass service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_numerical.sru">
+      <Comment>Extension Numerical service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_selection.sru">
+      <Comment>Extension Selection service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_sqlattrib.sru">
+      <Comment>Extension SQL attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_selectionattrib.sru">
+      <Comment>Extension Selection attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_platform.sru">
+      <Comment>Extension Cross Platform service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_platformunicode.sru">
+      <Comment>Extension Unicode Cross Platform service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_mruattrib.sru">
+      <Comment>Extension Most Recently Used service attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_lvsrv_datasource.sru">
+      <Comment>Extension ListView Datasource service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_lvsrv_sort.sru">
+      <Comment>Extension ListView Sort service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_lvsrvattrib.sru">
+      <Comment>Extension ListView attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_logonattrib.sru">
+      <Comment>Extension Long attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_luw.sru">
+      <Comment>Extension Logical Unit of Work Service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_lvsrv.sru">
+      <Comment>Extension ListView Base service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dberrorattrib.sru">
+      <Comment>Extension dberror attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwcache.sru">
+      <Comment>Extension DataWindow Caching service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_errorattrib.sru">
+      <Comment>Extension Message (error) attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_error.sru">
+      <Comment>Extension Message (error) service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_filesrv.sru">
+      <Comment>Extension File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_filesrvunicode.sru">
+      <Comment>Extension Unicode File handler service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_datetime.sru">
+      <Comment>Extension Date and/or Datetime service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dirattrib.sru">
+      <Comment>Extension DIR attribus used by the File services</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_findattrib.sru">
+      <Comment>Extension Find/Replace attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_inifile.sru">
+      <Comment>Extension INIFile service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwcacheattrib.sru">
+      <Comment>Extension Caching attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_linkedlistbase.sru">
+      <Comment>Extension Linked List Base service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_linkedlistnodecompare.sru">
+      <Comment>Extension Linked List Node compare</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_infoattrib.sru">
+      <Comment>Extension Informational attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_itemattrib.sru">
+      <Comment>Extension Item attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_linkedlistnode.sru">
+      <Comment>Extension Linked List Node</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dropdown.sru">
+      <Comment>Extension DropDown Service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_appmanager.sru">
+      <Comment>Extension Application Manager service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_color.sru">
+      <Comment>Extension Color service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_apppreference.sru">
+      <Comment>Extension Application Preference service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_columnattrib.sru">
+      <Comment>Extension Column attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_aboutattrib.sru">
+      <Comment>Extension About window attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_conversion.sru">
+      <Comment>Extension Conversion service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_list.sru">
+      <Comment>Extension List service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tvsrv_print.sru">
+      <Comment>Extension TreeView Print service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tvsrv_levelsource.sru">
+      <Comment>Extension Treeview Level Based service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_trregistrationattrib.sru">
+      <Comment>Extension Transaction Registration attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_replace.srw">
+      <Comment>Extension Replace window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tvsrvattrib.sru">
+      <Comment>Extension TreeView datasource service attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_selection.srw">
+      <Comment>Extension Selection window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_message.srw">
+      <Comment>Extension Message Service "MessageBox Window".</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_trregistration.sru">
+      <Comment>Extension Transaction Registration service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_splash.srw">
+      <Comment>Extension Splash window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tree.sru">
+      <Comment>Extension Tree List service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tmgmultiple.sru">
+      <Comment>Extension timing multiple object service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pagesetup.srw">
+      <Comment>Extension Page Setup window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_find.srw">
+      <Comment>Extension Find window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_about.srw">
+      <Comment>Extension About window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_logon.srw">
+      <Comment>Extension Logon window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_treenodecompare.sru">
+      <Comment>Extension tree node compare class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tmgsingle.sru">
+      <Comment>Extension timing single object service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_treenode.sru">
+      <Comment>Extension tree node</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tvsrv.sru">
+      <Comment>Extension TreeView Base service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_textstyleattrib.sru">
+      <Comment>Extension Text Style attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_string.sru">
+      <Comment>Extension String service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tmgregisterattrib.sru">
+      <Comment>Extension timing register attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_replace.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_replace.srw</DependentUpon>
+    </Page>
+    <Page Include="w_selection.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_selection.srw</DependentUpon>
+    </Page>
+    <Page Include="w_message.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_message.srw</DependentUpon>
+    </Page>
+    <Page Include="w_splash.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_splash.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pagesetup.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pagesetup.srw</DependentUpon>
+    </Page>
+    <Page Include="w_find.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_find.srw</DependentUpon>
+    </Page>
+    <Page Include="w_about.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_about.srw</DependentUpon>
+    </Page>
+    <Page Include="w_logon.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_logon.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

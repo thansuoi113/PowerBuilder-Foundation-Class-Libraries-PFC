@@ -1,0 +1,17 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_tabpgone" BackColor="77571519" PBHeight="536" Height="133" PBWidth="1531" Width="334" PictureMaskColor="12632256" TabBackColor="77571519" Text="Name &amp; Location" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:CheckBox Name="cbx_1" Enabled="false" PBChecked="true" PBWidth="599" Width="130" Text="Include _subfolders" X="251" Y="328" BackColor="80263581" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="67" Height="16" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:CheckBox>
+        <pbwpf:CommandButton Name="cb_1" Enabled="false" TabOrder="2" Text="_Browse..." X="1120" Y="188" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" PBWidth="352" Width="76" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:DropDownPictureListBox Name="ddplb_1" PBHeight="336" Height="27" PBWidth="827" Width="180" PictureMaskColor="255" PictureName="Diskdriv.bmp,Harddriv.bmp,Netdriv.bmp,Cdromtpt.bmp" Sorted="false" TabOrder="20" X="251" Y="188" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:DropDownPictureListBoxItem Item="3½ Floppy (A:)" PictureIndex="1"></pbwpf:DropDownPictureListBoxItem>
+            <pbwpf:DropDownPictureListBoxItem Item="(C:)" PictureIndex="2"></pbwpf:DropDownPictureListBoxItem>
+            <pbwpf:DropDownPictureListBoxItem Item="(D:)" PictureIndex="4"></pbwpf:DropDownPictureListBoxItem>
+            <pbwpf:DropDownPictureListBoxItem Item="(E:)  AppServer" PictureIndex="3"></pbwpf:DropDownPictureListBoxItem>
+            <pbwpf:DropDownPictureListBoxItem Item="(F:)  DBServer" PictureIndex="3"></pbwpf:DropDownPictureListBoxItem>
+            <pbwpf:DropDownPictureListBoxItem Item="(G:)  MailServer" PictureIndex="3"></pbwpf:DropDownPictureListBoxItem>
+        </pbwpf:DropDownPictureListBox>
+        <pbwpf:DropDownListBox Name="ddlb_1" PBHeight="452" Height="27" PBWidth="1221" Width="266" TabOrder="10" X="251" Y="68" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400"></pbwpf:DropDownListBox>
+        <pbwpf:StaticText Name="st_1" BackColor="77571519" PBWidth="206" Width="44" Text="_Named:" X="46" Y="80" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:StaticText Name="st_2" BringToTop="true" PBWidth="210" Width="45" Text="_Look in:" X="46" Y="212" BackColor="80263581" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+    </Canvas>
+</pbwpf:UserObject>

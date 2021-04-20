@@ -1,0 +1,6 @@
+C:\pfc\12.Net\pfcmsg\Message Manager.out\bin\Debug\pfcmsg.resource.dll
+C:\pfc\12.Net\pfcmsg\Message Manager.out\bin\Debug\pfcmsg.resource.pdb
+C:\pfc\12.Net\pfcmsg\Message Manager.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\pfcmsg\Message Manager.out\obj\Debug\pfcmsg.resource.g.resources
+C:\pfc\12.Net\pfcmsg\Message Manager.out\obj\Debug\pfcmsg.resource.dll
+C:\pfc\12.Net\pfcmsg\Message Manager.out\obj\Debug\pfcmsg.resource.pdb

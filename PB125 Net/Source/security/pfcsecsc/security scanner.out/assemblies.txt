@@ -1,0 +1,3 @@
+c:\program files (x86)\reference assemblies\microsoft\framework\v3.0\presentationcore.dll
+c:\program files (x86)\sybase\powerbuilder 12.0\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\v3.5\system.data.datasetextensions.dll

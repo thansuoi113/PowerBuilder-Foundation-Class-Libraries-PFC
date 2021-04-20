@@ -1,0 +1,5 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_calculator" BackColor="80263328" PBHeight="416" Height="103" PBWidth="457" Width="99" PictureMaskColor="553648127" TabBackColor="79741120" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_calculator" DataObject="d_calculator" LiveScroll="false" PBHeight="420" Height="104" PBVScrollBar="false" PBWidth="462" Width="100" TabOrder="20" X="0" Y="0" BorderStyle="stylelowered"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

@@ -1,0 +1,6 @@
+C:\pfc\12.Net\demoapp\Peat Demo App.out\bin\Debug\peat.resource.dll
+C:\pfc\12.Net\demoapp\Peat Demo App.out\bin\Debug\peat.resource.pdb
+C:\pfc\12.Net\demoapp\Peat Demo App.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\demoapp\Peat Demo App.out\obj\Debug\peat.resource.g.resources
+C:\pfc\12.Net\demoapp\Peat Demo App.out\obj\Debug\peat.resource.dll
+C:\pfc\12.Net\demoapp\Peat Demo App.out\obj\Debug\peat.resource.pdb

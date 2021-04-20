@@ -1,0 +1,5 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_calendar" BackColor="80263328" PBHeight="640" Height="159" PBWidth="695" Width="151" PictureMaskColor="25166016" TabBackColor="67108864" TabTextColor="0">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_cal" BorderStyle="styleraised" DataObject="d_calendar" LiveScroll="false" PBHeight="640" Height="159" PBVScrollBar="false" PBWidth="695" Width="151" TabOrder="10"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

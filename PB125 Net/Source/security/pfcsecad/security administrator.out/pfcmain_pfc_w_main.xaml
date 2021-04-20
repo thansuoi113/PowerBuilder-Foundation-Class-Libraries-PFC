@@ -1,0 +1,3 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="pfc_w_main" PBHeight="1732" PBWidth="2692" BackColor="79741120" Background="#fff0f0f0" ControlMenu="true" MaxBox="true" MinBox="true" Resizable="true" TitleBar="true" X="466" Y="372">
+    <Canvas></Canvas>
+</pbwpf:Window>

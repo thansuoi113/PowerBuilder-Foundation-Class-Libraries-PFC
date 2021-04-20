@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>testapp</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{66595418-9318-482a-bb5b-1d64afc6b095}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>testapp</AssemblyName>
+    <RootNamespace>testapp</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>testapp</ApplicationName>
+    <ApplicationObject>testapp</ApplicationObject>
+    <ApplicationLibrary>testapp.pbl\testapp.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{18179443-0a50-4a43-93b8-247cf5f459e3}</LibraryList>
+    <PBProjectsDeploy>{18179443-0a50-4a43-93b8-247cf5f459e3},p_testapp_wpf.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>testapp.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>testapp.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins" />
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="testapp.pbl\testapp.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>testapp</Name>
+      <InstanceGuid>{18179443-0a50-4a43-93b8-247cf5f459e3}</InstanceGuid>
+    </SubProject>
+    <Folder Include="Resources" />
+    <Folder Include="Resources\images" />
+    <EmbeddedResource Include="Resources\images\arrowl.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\arrowr.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\cdromtpt.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\collat.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\ddarrow.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\diskdriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\empty.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\empty2.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\excl.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\folder.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\foldopen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\harddriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\hot.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\info.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\key.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\lgopen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\lines.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\minus.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\netdriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\new.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\pfcexamp.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\pfcmsg.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\plus.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\quest.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\stop.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\tutsport.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\uncollat.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\images\user.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

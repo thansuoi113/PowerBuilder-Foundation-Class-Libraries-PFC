@@ -1,0 +1,19 @@
+﻿pfcsecurity_scanner
+
+
+winexe
+C#
+.cs
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\
+pfcsecurity_scanner
+none
+false
+DEBUG;TRACE
+
+4-1632405882
+
+17445310724
+591861621772
+pfcsecsc_w_pfcsecurity_objectlist.xaml;pfcsecsc_w_pfcsecurity_targetselection.xaml;pfcsecsc_pfcscanner_u_dw.xaml;pfcsecsc_base_librarylist.xaml;
+
+

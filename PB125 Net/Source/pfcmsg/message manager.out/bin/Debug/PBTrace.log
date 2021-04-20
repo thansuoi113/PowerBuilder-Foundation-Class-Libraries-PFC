@@ -1,0 +1,77 @@
+PB Trace output file: C:\pfc\12.Net\pfcmsg\Message Manager.out\bin\Debug\PBTrace.log
+---------------------------------
+Main Exception:
+Exception Time: 2010-12-10 08:38:10.1735648
+Process ID: 4976
+AppDomain: pfcmsg.exe Domain ID: 1
+ Managed Thread ID: 1
+Current Thread State: Running
+Method: Void e()
+Exception Type: System.NullReferenceException
+Exception Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sybase.PowerBuilder.WPF.PBMenu.e()
+   at Sybase.PowerBuilder.WPF.PBMenu.OnDestroy()
+   at Sybase.PowerBuilder.PBPowerObject.PBDispose()
+   at Sybase.PowerBuilder.PBSessionBase.DestroyObject(Object obj)
+Exception Source: Sybase.PowerBuilder.WPF
+Exception StackTrace:    at Sybase.PowerBuilder.WPF.PBMenu.e()
+   at Sybase.PowerBuilder.WPF.PBMenu.OnDestroy()
+   at Sybase.PowerBuilder.PBPowerObject.PBDispose()
+   at Sybase.PowerBuilder.PBSessionBase.DestroyObject(Object obj)
+Exception Call Stack:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Sybase.PowerBuilder.PBLogger.a(Exception A_0, LogLevel A_1, Boolean A_2, Boolean A_3)
+   at Sybase.PowerBuilder.PBLogger.a(Exception A_0, LogLevel A_1, Boolean A_2)
+   at Sybase.PowerBuilder.PBLogger.LogExceptionOnly(Exception e, LogLevel logLevel)
+   at Sybase.PowerBuilder.PBLogger.LogException(Exception e, LogLevel logLevel)
+   at Sybase.PowerBuilder.PBLogger.LogException(Exception e)
+   at Sybase.PowerBuilder.PBSessionBase.DestroyObject(Object obj)
+   at c__pfc_u_dw.rbuttonup(PBInt xpos, PBInt ypos, PBLong row, PBDWObject dwo) in c:\pfc\12.Net\pfcmsg\message manager.out\pfc_u_dw.rbuttonup:line 305
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Sybase.PowerBuilder.WPF.PBDataWindow.a(Object A_0, DWMouseEventArgs A_1)
+   at Sybase.DataWindow.Wpf.DWDataWindowControl.OnMouseUp(Int32 x, Int32 y, Int32 row, DWMouseButton button, DWVisualObject dwo)
+   at ag4.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)
+   at System.Windows.UIElement.OnPreviewMouseRightButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.UIElement.CrackMouseButtonEventAndReRaiseEvent(DependencyObject sender, MouseButtonEventArgs e)
+   at System.Windows.UIElement.OnPreviewMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   at System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   at System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.Run()
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run(Window window)
+   at System.Windows.Application.Run()
+   at Sybase.PowerBuilder.WPF.PBSession.RunWPFApp()
+   at PBApplicationEntryPoint.Main() in c:\pfc\12.Net\pfcmsg\message manager.out\PBApplicationEntryPoint.cs:line 0
+-------------------------------------------------------------------------------
+

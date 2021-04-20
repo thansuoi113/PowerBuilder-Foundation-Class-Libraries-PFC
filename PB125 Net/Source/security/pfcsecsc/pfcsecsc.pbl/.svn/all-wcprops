@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl
+END
+pfcscanner_n_cst_filesrvhpux.sru
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrvhpux.sru
+END
+d_pfcsecurity_allcontrollist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_allcontrollist.srd
+END
+pfcscanner_n_cst_filesrvunicode.sru
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrvunicode.sru
+END
+pfcscanner_n_cst_securityscanner.sru
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_securityscanner.sru
+END
+d_pfcsecurity_userlookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_userlookup.srd
+END
+w_pfcsecurity_objectlist.srw
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/w_pfcsecurity_objectlist.srw
+END
+w_pfcsecurity_objectlist.srw.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/w_pfcsecurity_objectlist.srw.xaml
+END
+f_setfilesrv.srf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/f_setfilesrv.srf
+END
+d_pfcsecurity_applookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_applookup.srd
+END
+d_pfcsecurity_controllist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_controllist.srd
+END
+d_pfcsecurity_templateupdate.srd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_templateupdate.srd
+END
+d_pfcsecurity_groupverify.srd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_groupverify.srd
+END
+pfcscanner_n_cst_filesrvwin32.sru
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrvwin32.sru
+END
+pfcscanner_n_ds.sru
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_ds.sru
+END
+pfcsecsc.pblx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcsecsc.pblx
+END
+pfcsecsc.pblx.vspscc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcsecsc.pblx.vspscc
+END
+pfcsecurity_scanner.sra
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcsecurity_scanner.sra
+END
+d_pfcsecurity_grouplookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_grouplookup.srd
+END
+p_pfcsecurity_scanner_wpf.srj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/p_pfcsecurity_scanner_wpf.srj
+END
+base_librarylist.sru.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/base_librarylist.sru.xaml
+END
+base_librarylist.sru
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/base_librarylist.sru
+END
+pfcscanner_n_cst_string.sru
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_string.sru
+END
+pfcscanner_u_dw.sru
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_u_dw.sru
+END
+pfcscanner_u_dw.sru.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_u_dw.sru.xaml
+END
+pfcscanner_n_cst_filesrvsol2.sru
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrvsol2.sru
+END
+pfcscanner_n_cst_filesrv.sru
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrv.sru
+END
+pfcscanner_n_cst_filesrvaix.sru
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/pfcscanner_n_cst_filesrvaix.sru
+END
+d_pfcsecurity_objectlist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/d_pfcsecurity_objectlist.srd
+END
+w_pfcsecurity_targetselection.srw
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/w_pfcsecurity_targetselection.srw
+END
+w_pfcsecurity_targetselection.srw.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/60468/12.Net/security/pfcsecsc/pfcsecsc.pbl/w_pfcsecurity_targetselection.srw.xaml
+END

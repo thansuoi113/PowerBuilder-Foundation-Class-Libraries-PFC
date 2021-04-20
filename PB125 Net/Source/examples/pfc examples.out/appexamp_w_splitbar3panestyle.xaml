@@ -1,0 +1,9 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_splitbar3panestyle" PBHeight="968" PBTitle="PFC Example - Split Bar 3 Pane Style" PBWidth="1006" TitleBar="true" X="713" Y="376" BackColor="79741120" Background="#fff0f0f0" ControlMenu="true" MaxBox="true" MinBox="true" Resizable="true">
+    <Canvas>
+        <pbwpf:StaticText Name="st_v1" PBHeight="448" Height="111" PBWidth="18" Width="3" X="389" Y="8" BackColor="8421504" Enabled="true" Text="" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:StaticText Name="st_h1" PBWidth="933" Width="203" X="18" Y="456" BackColor="8421504" Enabled="true" PBHeight="20" Height="4" Text="" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:RichTextEdit Name="rte_topright" BringToTop="true" PBHeight="448" Height="111" PBWidth="539" Width="117" TabOrder="20" X="411" Y="8" BorderStyle="stylelowered"></pbwpf:RichTextEdit>
+        <pbwpf:MultiLineEdit Name="mle_bottom" BringToTop="true" PBHeight="368" Height="91" PBWidth="933" Width="203" TabOrder="30" TextColor="33554432" X="18" Y="476" AutoVScroll="true" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextSize="-8" Weight="400"></pbwpf:MultiLineEdit>
+        <pbwpf:RichTextEdit Name="rte_topleft" BringToTop="true" PBHeight="448" Height="111" PBWidth="370" Width="80" TabOrder="10" X="18" Y="8" BorderStyle="stylelowered"></pbwpf:RichTextEdit>
+    </Canvas>
+</pbwpf:Window>

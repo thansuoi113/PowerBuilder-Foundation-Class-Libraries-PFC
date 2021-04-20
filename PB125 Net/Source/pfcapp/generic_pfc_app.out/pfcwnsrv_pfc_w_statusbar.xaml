@@ -1,0 +1,5 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="pfc_w_statusbar" BackColor="80263328" Background="#fff0f0f0" Border="false" ControlMenu="false" MaxBox="false" MinBox="false" PBHeight="60" PBWidth="1861" Resizable="false" TitleBar="false" Visible="false" X="672" Y="272" WindowType="popup">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_statusbar" Border="false" BorderStyle="stylebox" LiveScroll="false" PBHeight="60" Height="14" PBVScrollBar="false" PBWidth="1394" Width="304" TabOrder="1"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:Window>

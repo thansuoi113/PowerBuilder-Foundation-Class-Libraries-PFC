@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfemain</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{cc4d1fed-9cf9-4069-91ca-bd552d7c0b76}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfemain</AssemblyName>
+    <RootNamespace>pfemain</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="u_ddplb.sru">
+      <Comment>Extension DropDownPictureListBox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_st_splitbar.sru">
+      <Comment>Extension SplitBar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_tabpg.sru">
+      <Comment>Extension TabPage class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_progressbar.sru">
+      <Comment>Extension Progressbar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_tab.sru">
+      <Comment>Extension Tab class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_hpb.sru">
+      <Comment>Extension HorizontalProgressbar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_hsb.sru">
+      <Comment>Extension HorizontalScrollbar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_htb.sru">
+      <Comment>Extension HorizontalTrackBar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_mle.sru">
+      <Comment>Extension MultiLineEdit class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_plb.sru">
+      <Comment>Extension PictureListBox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_gb.sru">
+      <Comment>Extension Groupbox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_phl.sru">
+      <Comment>Extension PictureHyperLink class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_sle.sru">
+      <Comment>Extension SingleLineEdit class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_p.sru">
+      <Comment>Extension Picture class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_lb.sru">
+      <Comment>Extension Listbox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_vpb.sru">
+      <Comment>Extension VerticalProgressbar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_em.sru">
+      <Comment>Extension Editmask class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_oc.sru">
+      <Comment>Extension OleControl class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_pb.sru">
+      <Comment>Extension Picturebutton class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_rte.sru">
+      <Comment>Extension RichText class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_vsb.sru">
+      <Comment>Extension VerticalScrollBar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_rb.sru">
+      <Comment>Extension Radiobutton class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_sth.sru">
+      <Comment>Extension StaticTextHyperLink class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_gr.sru">
+      <Comment>Extension Graph class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_dw.sru">
+      <Comment>Extension DataWindow class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_lvs.sru">
+      <Comment>Extension Service Based ListView class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_ddlb.sru">
+      <Comment>Extension DropDownListBox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_lv.sru">
+      <Comment>Extension ListView class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_tvs.sru">
+      <Comment>Extension Serviced Base TreeView class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_st.sru">
+      <Comment>Extension StaticText class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_tv.sru">
+      <Comment>Extension TreeView class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_view.srm">
+      <Comment>Extension View Menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_base.sru">
+      <Comment>Extension NonVisual Base class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_calculatorattrib.sru">
+      <Comment>Extension Calculator constructor attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_tvattrib.sru">
+      <Comment>Extension TreeView attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cxinfo.sru">
+      <Comment>Extension ContextInformation class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cn.sru">
+      <Comment>Extension Connection class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cxk.sru">
+      <Comment>Extension ContextKeyword class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_dda.sru">
+      <Comment>Extension DynamicDescriptionArea class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_dsa.sru">
+      <Comment>Extension DynamicStagingArea class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_err.sru">
+      <Comment>Extension Error class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_inet.sru">
+      <Comment>Extension inet class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_msg.sru">
+      <Comment>Extension Message class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_ostg.sru">
+      <Comment>Extension OLEStorage class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_ds.sru">
+      <Comment>Extension Datastore class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_tmg.sru">
+      <Comment>Extension Timing Class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_base.sru">
+      <Comment>Extension Visual Ancestor class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_calculator.sru">
+      <Comment>Extension Calculator class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_calendar.sru">
+      <Comment>Extension Calendar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_cb.sru">
+      <Comment>Extension Commandbutton class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_baseattrib.sru">
+      <Comment>Extension attribute base class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_tvs.srm">
+      <Comment>Extension TreeView menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_ir.sru">
+      <Comment>Extension InternetResult class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_ostm.sru">
+      <Comment>Extension OLEStream class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_pl.sru">
+      <Comment>Extension PIpeline class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_oo.sru">
+      <Comment>Extension OLEObject class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_ms.sru">
+      <Comment>Extension Mail Session class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_srv.sru">
+      <Comment>Extension Service class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_tr.sru">
+      <Comment>Extension Transaction class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_calendarattrib.sru">
+      <Comment>Extension Calendar constructor attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_oc.srm">
+      <Comment>Extension Ole Control menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_dw.srm">
+      <Comment>Extension DataWindow menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_edit.srm">
+      <Comment>Extension Edit menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_lvs.srm">
+      <Comment>Extension ListView menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_cbx.sru">
+      <Comment>Extension Checkbox class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_sheet.srw">
+      <Comment>Extension Sheet Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_response.srw">
+      <Comment>Extension Response Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_popup.srw">
+      <Comment>Extension Popup Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_master.srw">
+      <Comment>Extension Master Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_main.srw">
+      <Comment>Extension Main Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_frame.srw">
+      <Comment>Extension Frame Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_child.srw">
+      <Comment>Extension Child Window class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_vtb.sru">
+      <Comment>Extension VerticalTrackBar class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="u_ddplb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_ddplb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_st_splitbar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_st_splitbar.sru</DependentUpon>
+    </Page>
+    <Page Include="u_tabpg.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_tabpg.sru</DependentUpon>
+    </Page>
+    <Page Include="u_progressbar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_progressbar.sru</DependentUpon>
+    </Page>
+    <Page Include="u_tab.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_tab.sru</DependentUpon>
+    </Page>
+    <Page Include="u_hpb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_hpb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_hsb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_hsb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_htb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_htb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_mle.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_mle.sru</DependentUpon>
+    </Page>
+    <Page Include="u_plb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_plb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_gb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_gb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_phl.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_phl.sru</DependentUpon>
+    </Page>
+    <Page Include="u_sle.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_sle.sru</DependentUpon>
+    </Page>
+    <Page Include="u_p.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_p.sru</DependentUpon>
+    </Page>
+    <Page Include="u_lb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_lb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_vpb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_vpb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_em.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_em.sru</DependentUpon>
+    </Page>
+    <Page Include="u_oc.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_oc.sru</DependentUpon>
+    </Page>
+    <Page Include="u_pb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_pb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_rte.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_rte.sru</DependentUpon>
+    </Page>
+    <Page Include="u_vsb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_vsb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_rb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_rb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_sth.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_sth.sru</DependentUpon>
+    </Page>
+    <Page Include="u_gr.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_gr.sru</DependentUpon>
+    </Page>
+    <Page Include="u_dw.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_dw.sru</DependentUpon>
+    </Page>
+    <Page Include="u_lvs.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_lvs.sru</DependentUpon>
+    </Page>
+    <Page Include="u_ddlb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_ddlb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_lv.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_lv.sru</DependentUpon>
+    </Page>
+    <Page Include="u_tvs.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_tvs.sru</DependentUpon>
+    </Page>
+    <Page Include="u_st.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_st.sru</DependentUpon>
+    </Page>
+    <Page Include="u_tv.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_tv.sru</DependentUpon>
+    </Page>
+    <Page Include="u_base.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_base.sru</DependentUpon>
+    </Page>
+    <Page Include="u_calculator.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_calculator.sru</DependentUpon>
+    </Page>
+    <Page Include="u_calendar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_calendar.sru</DependentUpon>
+    </Page>
+    <Page Include="u_cb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_cb.sru</DependentUpon>
+    </Page>
+    <Page Include="u_cbx.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_cbx.sru</DependentUpon>
+    </Page>
+    <Page Include="w_sheet.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_sheet.srw</DependentUpon>
+    </Page>
+    <Page Include="w_response.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_response.srw</DependentUpon>
+    </Page>
+    <Page Include="w_popup.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_popup.srw</DependentUpon>
+    </Page>
+    <Page Include="w_master.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_master.srw</DependentUpon>
+    </Page>
+    <Page Include="w_main.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_main.srw</DependentUpon>
+    </Page>
+    <Page Include="w_frame.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_frame.srw</DependentUpon>
+    </Page>
+    <Page Include="w_child.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_child.srw</DependentUpon>
+    </Page>
+    <Page Include="u_vtb.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_vtb.sru</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

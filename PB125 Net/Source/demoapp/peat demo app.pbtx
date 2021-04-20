@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>peat demo app.pbtx</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{8a8acd43-4c70-4635-b84e-e3a1fad89692}</ProjectGuid>
+    <Comment>Migrated by PB WPF migration tool</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>peat demo app</AssemblyName>
+    <RootNamespace>peat demo app</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>peat</ApplicationName>
+    <ApplicationObject>peat.sra</ApplicationObject>
+    <ApplicationLibrary>peat.pbl\peat.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{0dca6806-2d4a-46a1-840c-fa4feeb1634a};{ddd408fd-5ada-4872-8828-bc8a15bb7efb};{cfd684e1-9593-49d3-9fc9-7fd9c5aad9fa};{0832a570-2dad-407d-84f2-11a0f811fe49};{3cec248d-a62b-4e5c-becf-2cefa91a8b82};{bf3bcad2-33e0-452e-805a-c23fa3ec0bec};{40b98c22-8c37-43c9-9048-54406a7b83b1};{eb716887-566b-4b2b-abc2-433203d62dcd};{053b25c9-4a12-4bc2-accb-d492f4fc32c5};{7f6e46c0-c65b-4a9e-88e3-406ed9aa9c71};{4bc1bce1-3b69-41bb-ab5b-8d2b9174370f}</LibraryList>
+    <PBProjectsDeploy>{0dca6806-2d4a-46a1-840c-fa4feeb1634a},p_peat_wpf.srj,41Fxx;</PBProjectsDeploy>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>peat demo app.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>peat demo app.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins" />
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="pfcwnsrv.pbl\pfcwnsrv.pblx">
+      <Name>pfcwnsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{4bc1bce1-3b69-41bb-ab5b-8d2b9174370f}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcutil.pbl\pfcutil.pblx">
+      <Name>pfcutil</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{7f6e46c0-c65b-4a9e-88e3-406ed9aa9c71}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcmain.pbl\pfcmain.pblx">
+      <Name>pfcmain</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{053b25c9-4a12-4bc2-accb-d492f4fc32c5}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcdwsrv.pbl\pfcdwsrv.pblx">
+      <Name>pfcdwsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{eb716887-566b-4b2b-abc2-433203d62dcd}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfcapsrv.pbl\pfcapsrv.pblx">
+      <Name>pfcapsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{40b98c22-8c37-43c9-9048-54406a7b83b1}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfewnsrv.pbl\pfewnsrv.pblx">
+      <Name>pfewnsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{bf3bcad2-33e0-452e-805a-c23fa3ec0bec}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfeutil.pbl\pfeutil.pblx">
+      <Name>pfeutil</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{3cec248d-a62b-4e5c-becf-2cefa91a8b82}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfemain.pbl\pfemain.pblx">
+      <Name>pfemain</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{0832a570-2dad-407d-84f2-11a0f811fe49}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfedwsrv.pbl\pfedwsrv.pblx">
+      <Name>pfedwsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{cfd684e1-9593-49d3-9fc9-7fd9c5aad9fa}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="pfeapsrv.pbl\pfeapsrv.pblx">
+      <Name>pfeapsrv</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{ddd408fd-5ada-4872-8828-bc8a15bb7efb}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="peat.pbl\peat.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>peat</Name>
+      <InstanceGuid>{0dca6806-2d4a-46a1-840c-fa4feeb1634a}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="arrowl.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arrowr.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cdromtpt.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="collat.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ddarrow.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diskdriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empty.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empty2.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="excl.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folder.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foldopen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="harddriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hot.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iopen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="key.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lgopen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lines.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minus.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netdriv.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="object.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="peat.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="peatapp1.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pfcexamp.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pfcmsg.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plus.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popen.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quest.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rowind.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stop.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tutsport.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uncollat.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.ico">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard.bmp">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

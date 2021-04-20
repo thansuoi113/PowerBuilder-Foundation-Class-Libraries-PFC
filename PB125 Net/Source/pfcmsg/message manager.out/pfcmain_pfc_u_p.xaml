@@ -1,0 +1,2 @@
+<pbwpf:Picture xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="pfc_u_p" FocusRectangle="false" PBHeight="144" Height="35" PBWidth="160" Width="34">
+</pbwpf:Picture>

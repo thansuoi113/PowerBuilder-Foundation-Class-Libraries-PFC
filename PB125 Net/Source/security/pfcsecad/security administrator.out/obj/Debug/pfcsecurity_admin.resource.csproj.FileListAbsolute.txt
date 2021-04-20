@@ -1,0 +1,6 @@
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\bin\Debug\pfcsecurity_admin.resource.dll
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\bin\Debug\pfcsecurity_admin.resource.pdb
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\obj\Debug\pfcsecurity_admin.resource.g.resources
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\obj\Debug\pfcsecurity_admin.resource.dll
+C:\pfc\12.Net\security\pfcsecad\Security Administrator.out\obj\Debug\pfcsecurity_admin.resource.pdb

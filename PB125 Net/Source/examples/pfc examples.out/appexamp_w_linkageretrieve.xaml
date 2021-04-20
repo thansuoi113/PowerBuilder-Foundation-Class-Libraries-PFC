@@ -1,0 +1,9 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_linkageretrieve" PBHeight="1496" PBTitle="PFC Example - Basic Retrieval Arguments" PBWidth="1650" Resizable="false" TitleBar="true" ToolbarVisible="false" X="457" Y="148" BackColor="79741120" Background="#fff0f0f0" ControlMenu="true" MaxBox="true" MinBox="true">
+    <Canvas>
+        <pbwpf:Picture Name="p_1" OriginalSize="true" PBHeight="64" Height="15" PBWidth="73" Width="15" PictureName="rowind.bmp" X="2121" Y="360" FocusRectangle="false"></pbwpf:Picture>
+        <pbwpf:DataWindow Name="dw_lineitem" DataObject="d_lineitems" LiveScroll="false" PBHeight="420" Height="104" PBTag="linetag" PBWidth="1573" Width="343" TabOrder="30" X="32" Y="852" BorderStyle="stylelowered" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:DataWindow Name="dw_sales" DataObject="d_salesforcustomers" LiveScroll="false" PBHeight="424" Height="105" PBTag="salestag" PBWidth="1573" Width="343" TabOrder="20" X="32" Y="408" BorderStyle="stylelowered" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:DataWindow Name="dw_cust" DataObject="d_customerdetail" LiveScroll="false" PBHeight="364" Height="90" PBTag="custtag" PBWidth="1573" Width="343" TabOrder="10" X="32" Y="28" BorderStyle="stylelowered" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:CommandButton Name="cb_close" Cancel="true" PBHeight="80" Height="19" PBWidth="311" Width="67" TabOrder="40" Text="Close" X="1298" Y="1308" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+    </Canvas>
+</pbwpf:Window>

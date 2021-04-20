@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfewnsrv</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{710d5939-72f2-4a5e-bfff-328b1b5e7603}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfewnsrv</AssemblyName>
+    <RootNamespace>pfewnsrv</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="n_cst_resizeattrib.sru">
+      <Comment>Extension Resize attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv_statusbar.sru">
+      <Comment>Extension Statusbar service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_frame.srm">
+      <Comment>Extension/Example of frame menu</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_master.srm">
+      <Comment>Extension Master menu class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_menu.sru">
+      <Comment>Extension Menu service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_resize.sru">
+      <Comment>Extension Resize service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_statusbar.srw">
+      <Comment>Extension Statusbar window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_toolbars.srw">
+      <Comment>Extension Toolbars Window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv.sru">
+      <Comment>Extension Base Window Service class</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv_sheetmanagerattrib.sru">
+      <Comment>Extension Window  Sheet Manager attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv_sheetmanager.sru">
+      <Comment>Extension Window Sheet Manager service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_toolbarattrib.sru">
+      <Comment>Extension Toolbar attributes used by the Toolbar window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv_statusbarattrib.sru">
+      <Comment>Extension Widow Statusbar attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_winsrv_preference.sru">
+      <Comment>Extension Window Preferences service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_statusbar.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_statusbar.srw</DependentUpon>
+    </Page>
+    <Page Include="w_toolbars.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_toolbars.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

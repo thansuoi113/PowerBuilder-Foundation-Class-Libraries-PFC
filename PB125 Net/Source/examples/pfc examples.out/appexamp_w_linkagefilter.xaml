@@ -1,0 +1,11 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_linkagefilter" PBHeight="1392" PBTitle="PFC Example - Basic Filters" PBWidth="1659" Resizable="false" X="329" Y="100" BackColor="79741120" Background="#fff0f0f0" ControlMenu="true" MaxBox="true" MinBox="true" TitleBar="true">
+    <Canvas>
+        <pbwpf:CommandButton Name="cb_update" PBHeight="80" Height="19" PBWidth="320" Width="69" TabOrder="50" Text="_Update" X="955" Y="1196" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:DataWindow Name="dw_lineitem" DataObject="d_lineitemsall" PBHeight="368" Height="91" PBTag="lineitems" PBWidth="1586" Width="346" TabOrder="30" X="27" Y="792" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:DataWindow Name="dw_sales" DataObject="d_salesforcustomersall" PBHeight="368" Height="91" PBTag="sales" PBWidth="1586" Width="346" TabOrder="20" X="27" Y="392" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:DataWindow Name="dw_cust" DataObject="d_customerdetailupdatable" PBHScrollBar="true" PBHeight="344" Height="85" PBTag="customers" PBWidth="1586" Width="346" TabOrder="10" X="27" Y="24" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:CommandButton Name="cb_close" Cancel="true" PBHeight="80" Height="19" PBWidth="320" Width="69" TabOrder="60" Text="Close" X="1298" Y="1196" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:CommandButton Name="cb_retrieve" PBHeight="80" Height="19" PBWidth="320" Width="69" TabOrder="40" Text="_Retrieve" X="613" Y="1196" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:Picture Name="p_1" BringToTop="true" OriginalSize="true" PBHeight="64" Height="15" PBWidth="73" Width="15" PictureName="rowind.bmp" X="2062" Y="292" FocusRectangle="false"></pbwpf:Picture>
+    </Canvas>
+</pbwpf:Window>

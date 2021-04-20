@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfedwsrv</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{cfd684e1-9593-49d3-9fc9-7fd9c5aad9fa}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfedwsrv</AssemblyName>
+    <RootNamespace>pfedwsrv</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="n_cst_filterattrib.sru">
+      <Comment>Extension Attributes for the DataWindow Filter service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_filtersimple.srw">
+      <Comment>Extension Simple-Style Filter dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_resize.sru">
+      <Comment>Extension DataWindow Resize service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_rowselection.sru">
+      <Comment>Extension DataWindow Row Selection service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_sort.sru">
+      <Comment>Extension DataWindow Sort service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_zoomattrib.sru">
+      <Comment>Extension Attributes for the DataWindow Zoom service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_report.sru">
+      <Comment>Extension DataWindow Reporting service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_sortattrib.sru">
+      <Comment>Extension Attributes for the DataWindow Sort service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_rowmanager.sru">
+      <Comment>Extension DataWindow RowManager service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_printpreview.sru">
+      <Comment>Extension DataWindow  PrintPreview service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_multitable.sru">
+      <Comment>Extension DataWindow Multiple Table service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_restorerowattrib.sru">
+      <Comment>Extension Attributes for DataWindow Undelete Window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_querymode.sru">
+      <Comment>Extension DataWindow QueryMode service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_linkageattrib.sru">
+      <Comment>Extension Attributes for the Linkage service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_multitableattrib.sru">
+      <Comment>Extension DataWindow Multiple Table attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_filterextended.srw">
+      <Comment>Extension Extended Filter dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_querymodeattrib.sru">
+      <Comment>Extension DataWindow QueryMode attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_resizeattrib.sru">
+      <Comment>Extension DataWindow Resize attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_reqcolumn.sru">
+      <Comment>Extension DataWindow Required Column service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_filter.sru">
+      <Comment>Extension DataWindow Filter service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_find.sru">
+      <Comment>Extension DataWindow Find/Replace service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_linkage.sru">
+      <Comment>Extension DataWindow Linkage service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dssrv_report.sru">
+      <Comment>Extension DataStore Reporting service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv.sru">
+      <Comment>Extension Base DataWindow service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwobjectattrib.sru">
+      <Comment>Extension Attributes for the Modify / Describe service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_dropdownsearch.sru">
+      <Comment>Extension DataWindow DropDownSearch service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dwsrv_dropdownsearchattrib.sru">
+      <Comment>Extension DataWindow DropDownSearch attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dssrv.sru">
+      <Comment>Extension Datastore Base service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dssrv_multitable.sru">
+      <Comment>Extension DataStore Multiple Table service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dssrv_printpreview.sru">
+      <Comment>Extension DataStore PrintPreview service</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_dssrv_multitableattrib.sru">
+      <Comment>Extension Datastore Multiple Table attributes</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_sortsingle.srw">
+      <Comment>Extension Simple Sort dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_restorerow.srw">
+      <Comment>Extension Display RestoreRow Buffer dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_sortmulti.srw">
+      <Comment>Extension DDLB-style Sort dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_zoom.srw">
+      <Comment>Extension Zoom dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_sortdragdrop.srw">
+      <Comment>Extension Drag/Drop Style Sort dialog window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_filtersimple.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_filtersimple.srw</DependentUpon>
+    </Page>
+    <Page Include="w_filterextended.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_filterextended.srw</DependentUpon>
+    </Page>
+    <Page Include="w_sortsingle.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_sortsingle.srw</DependentUpon>
+    </Page>
+    <Page Include="w_restorerow.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_restorerow.srw</DependentUpon>
+    </Page>
+    <Page Include="w_sortmulti.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_sortmulti.srw</DependentUpon>
+    </Page>
+    <Page Include="w_zoom.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_zoom.srw</DependentUpon>
+    </Page>
+    <Page Include="w_sortdragdrop.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_sortdragdrop.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

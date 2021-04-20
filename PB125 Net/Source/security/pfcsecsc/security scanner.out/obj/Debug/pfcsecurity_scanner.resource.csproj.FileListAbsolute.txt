@@ -1,0 +1,6 @@
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\bin\Debug\pfcsecurity_scanner.resource.dll
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\bin\Debug\pfcsecurity_scanner.resource.pdb
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.resource.g.resources
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.resource.dll
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.resource.pdb

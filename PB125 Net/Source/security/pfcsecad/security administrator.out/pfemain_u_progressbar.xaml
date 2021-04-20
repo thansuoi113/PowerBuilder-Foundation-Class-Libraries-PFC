@@ -1,0 +1,5 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_progressbar" BackColor="74481808" PBHeight="72" Height="17" PBWidth="1170" Width="255" PictureMaskColor="25166016" TabBackColor="74481808" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_progress" Border="false" DataObject="d_progress" PBHeight="76" PBWidth="384"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:UserObject>

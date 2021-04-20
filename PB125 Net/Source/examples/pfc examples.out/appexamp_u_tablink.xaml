@@ -1,0 +1,19 @@
+<pbwpf:Tab xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_tablink" PBHeight="724" Height="180" PBWidth="2560" Width="559" BackColor="79741120" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" RaggedRight="true" SelectedTab="1" ShowPicture="false" TabOrder="1" TextSize="-8" Weight="400">
+    <pbwpf:TabPage Name="tabpage_1" BackColor="80263328" PBHeight="608" PBWidth="2523" TabBackColor="80263328" Text="Customer (by Scroll)" X="18" Y="100" PictureMaskColor="12632256" PictureName="picture!" PowerTipText="Scrolls to the customer information for selected sales order" TabTextColor="33554432">
+        <Canvas>
+            <pbwpf:DataWindow Name="tabpage_1_dw_1" DataObject="d_custtab" PBHeight="560" Height="139" PBVScrollBar="false" PBWidth="2455" Width="536" X="32" Y="24" BorderStyle="stylelowered" LiveScroll="true" TabOrder="1" />
+        </Canvas>
+    </pbwpf:TabPage>
+    <pbwpf:TabPage Name="tabpage_2" BackColor="80263328" PBHeight="608" PBWidth="2523" TabBackColor="80263328" Text="Items Ordered (by Retrieval)" X="18" Y="100" PictureMaskColor="12632256" PictureName="arrangeicons!" PowerTipText="Selected items ordered by retrieval argument for selected sales order" TabTextColor="33554432">
+        <Canvas>
+            <pbwpf:Picture Name="tabpage_2_p_1" OriginalSize="true" PBHeight="64" Height="15" PBWidth="73" Width="15" PictureName="rowind.bmp" X="2674" Y="224" FocusRectangle="false" />
+            <pbwpf:DataWindow Name="tabpage_2_dw_1" DataObject="d_lineitemstab" PBHeight="560" Height="139" PBWidth="2455" Width="536" X="32" Y="24" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true" TabOrder="1" />
+        </Canvas>
+    </pbwpf:TabPage>
+    <pbwpf:TabPage Name="tabpage_3" BackColor="80263328" PBHeight="608" PBWidth="2523" TabBackColor="80263328" X="18" Y="100" PictureMaskColor="12632256" PictureName="editstops5!" PowerTipText="Filters to the sales representative for the selected sales order" Text="Sales Representative (by Filter)" TabTextColor="33554432">
+        <Canvas>
+            <pbwpf:Picture Name="tabpage_3_p_1" OriginalSize="true" PBHeight="64" Height="15" PBWidth="73" Width="15" PictureName="rowind.bmp" X="2729" Y="328" FocusRectangle="false" />
+            <pbwpf:DataWindow Name="tabpage_3_dw_1" DataObject="d_salesreptab" PBHeight="560" Height="139" PBVScrollBar="false" PBWidth="2450" Width="535" X="32" Y="24" BorderStyle="stylelowered" LiveScroll="true" TabOrder="1" />
+        </Canvas>
+    </pbwpf:TabPage>
+</pbwpf:Tab>

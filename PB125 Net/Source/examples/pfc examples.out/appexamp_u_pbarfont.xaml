@@ -1,0 +1,74 @@
+<pbwpf:UserObject xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="u_pbarfont" BackColor="77571519" PBHeight="1469" Height="367" PBWidth="1381" Width="301" PictureMaskColor="553648127" TabBackColor="79741120" TabTextColor="33554432">
+    <Canvas>
+        <pbwpf:GroupBox Name="gb_1" BackColor="77571519" PBWidth="897" Width="196" TabOrder="0" Text="Sample" X="439" Y="601" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="250" Height="62" TextColor="33554432" TextSize="-8" Weight="400">
+            <Canvas></Canvas>
+        </pbwpf:GroupBox>
+        <pbwpf:DataWindow Name="dw_sample" Border="false" BorderStyle="stylebox" DataObject="d_pbarsampler" PBHeight="145" Height="36" PBVScrollBar="false" PBWidth="810" Width="177" TabOrder="0" X="490" Y="665" LiveScroll="true"></pbwpf:DataWindow>
+        <pbwpf:DropDownListBox Name="ddlb_textcolor" Accelerator="116" BackColor="1090519039" PBHeight="517" Height="27" PBWidth="613" Width="133" Sorted="false" TabOrder="50" X="46" Y="937" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:DropDownListBoxItem Item="Black"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="White"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Yellow"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Buttonface"></pbwpf:DropDownListBoxItem>
+        </pbwpf:DropDownListBox>
+        <pbwpf:CheckBox Name="cbx_underline" PBWidth="311" Width="67" TabOrder="40" Text="_Underline" X="42" Y="685" BackColor="80263581" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="67" Height="16" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:CheckBox>
+        <pbwpf:SingleLineEdit Name="sle_fonts" PBWidth="545" Width="119" TabOrder="0" X="46" Y="145" AutoHScroll="false" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="77" Height="19" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:SingleLineEdit>
+        <pbwpf:StaticText Name="st_1" BackColor="77571519" PBWidth="147" Width="32" Text="Fo_nt:" X="46" Y="61" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:ListBox Name="lb_fonts" Accelerator="110" PBHeight="321" Height="80" PBWidth="545" Width="119" Sorted="false" TabOrder="10" X="46" Y="241" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:ListBoxItem Item="Arial"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="MS Sans Serif"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="Symbol"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="Times New Roman"></pbwpf:ListBoxItem>
+        </pbwpf:ListBox>
+        <pbwpf:ListBox Name="lb_fontstyles" Accelerator="121" BringToTop="true" PBHeight="321" Height="80" PBWidth="394" Width="86" Sorted="false" TabOrder="20" X="641" Y="241" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:ListBoxItem Item="Regular"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="Italic"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="Bold"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="Bold Italic"></pbwpf:ListBoxItem>
+        </pbwpf:ListBox>
+        <pbwpf:ListBox Name="lb_size" Accelerator="115" BringToTop="true" PBHeight="321" Height="80" PBWidth="252" Width="55" Sorted="false" TabOrder="30" X="1084" Y="241" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:ListBoxItem Item="8"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="10"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="12"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="14"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="18"></pbwpf:ListBoxItem>
+            <pbwpf:ListBoxItem Item="24"></pbwpf:ListBoxItem>
+        </pbwpf:ListBox>
+        <pbwpf:StaticText Name="st_2" BackColor="77571519" BringToTop="true" PBWidth="270" Width="58" Text="Font St_yles:" X="645" Y="61" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:StaticText Name="st_3" BackColor="77571519" BringToTop="true" PBWidth="124" Width="27" Text="_Size:" X="1089" Y="61" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:SingleLineEdit Name="sle_fontstyles" BringToTop="true" PBWidth="385" Width="84" TabOrder="0" X="645" Y="145" AutoHScroll="false" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="77" Height="19" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:SingleLineEdit>
+        <pbwpf:SingleLineEdit Name="sle_size" BringToTop="true" PBWidth="247" Width="53" TabOrder="0" X="1089" Y="145" AutoHScroll="false" BackColor="1090519039" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="77" Height="19" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:SingleLineEdit>
+        <pbwpf:StaticText Name="st_textcolor" BackColor="77571519" BringToTop="true" Text="_Text Color:" X="46" Y="861" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" PBWidth="344" Width="75" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:StaticText Name="st_bkgdcolor" BackColor="77571519" BringToTop="true" PBWidth="439" Width="95" Text="_Background Color:" X="723" Y="861" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+        <pbwpf:DropDownListBox Name="ddlb_bkgdcolor" Accelerator="98" BringToTop="true" PBHeight="517" Height="27" PBWidth="613" Width="133" Sorted="false" TabOrder="60" X="723" Y="937" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:DropDownListBoxItem Item="Black"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="White"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Yellow"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Buttonface"></pbwpf:DropDownListBoxItem>
+        </pbwpf:DropDownListBox>
+        <pbwpf:DropDownListBox Name="ddlb_fillcolor" Accelerator="102" BringToTop="true" PBHeight="321" Height="27" PBWidth="613" Width="133" Sorted="false" TabOrder="70" X="46" Y="1125" BorderStyle="stylelowered" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" TextColor="33554432" TextSize="-8" VScrollBar="true" Weight="400">
+            <pbwpf:DropDownListBoxItem Item="Black"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="White"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Red"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Green"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Dk. Blue"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Yellow"></pbwpf:DropDownListBoxItem>
+            <pbwpf:DropDownListBoxItem Item="Buttonface"></pbwpf:DropDownListBoxItem>
+        </pbwpf:DropDownListBox>
+        <pbwpf:StaticText Name="st_fillcolor" BackColor="77571519" BringToTop="true" Text="_Fill Color:" X="46" Y="1061" Enabled="false" FaceName="MS Sans Serif" FocusRectangle="false" FontPitch="variable" PBFontFamily="swiss" PBHeight="64" Height="15" PBWidth="344" Width="75" TextColor="33554432" TextSize="-8" Weight="400"></pbwpf:StaticText>
+    </Canvas>
+</pbwpf:UserObject>

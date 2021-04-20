@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>pfcmsg</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{cd83fcef-71da-49cc-ab40-6a10558f0640}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>pfcmsg</AssemblyName>
+    <RootNamespace>pfcmsg</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.1.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SccProjectName>/PFC</SccProjectName>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>..\..</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="d_messages.srd">
+      <Comment>Datawindow that holds message table</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_dddw_icons.srd">
+      <Comment>List of icons with pictures</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tb_messages.srd">
+      <Comment>Tabular dw for interacting with messaged table data</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pfcmsg.sra">
+      <Comment>Application Object for message manage application</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_msgs_frame.srm">
+      <Comment>Frame menu</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_msgs_frame.srw">
+      <Comment>Frame for messages table manager</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_msgs_sheet.srm">
+      <Comment>Sheet Menu</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_msgs_login.srw">
+      <Comment>This is the message application login window</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_msgs_sheet.srw">
+      <Comment>Main sheet in application</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_cst_msgs_manager.sru">
+      <Comment>App manager for message manager application</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_splash.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="s_copystruct.srs">
+      <Comment>Structure used in copy/paste functionality</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_msgs_frame.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_msgs_frame.srw</DependentUpon>
+    </Page>
+    <Page Include="w_msgs_login.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_msgs_login.srw</DependentUpon>
+    </Page>
+    <Page Include="w_msgs_sheet.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_msgs_sheet.srw</DependentUpon>
+    </Page>
+    <Page Include="w_splash.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_splash.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p_pfcmsg_wpf.srj">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

@@ -1,0 +1,15 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_r_actuals" PBHeight="1732" PBIcon="actuals.ico" PBTitle="Project Actuals" PBWidth="2533" TitleBar="true" X="183" Y="84" MaxBox="false" MinBox="false" Resizable="false" WindowType="response" BackColor="79741120" Background="#fff0f0f0" ControlMenu="true">
+    <Canvas>
+        <pbwpf:Tab Name="tab_actuals" PBWidth="2391" Width="522" TabOrder="10" X="46" Y="44" BackColor="79741120" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="1417" Height="354" RaggedRight="true" SelectedTab="1" TextSize="-8" Weight="400">
+            <pbwpf:TabPage Name="tab_actuals_tabpage_derived" BackColor="79741120" PBHeight="1301" PBWidth="2172" PictureMaskColor="536870912" TabBackColor="79741120" TabTextColor="33554432" Text="Derived Items" X="19" Y="101">
+                <Canvas>
+                    <pbwpf:DataWindow Name="tab_actuals_dw_project_dervied_actuals" DataObject="d_project_dervied_actuals" PBHeight="1185" Height="296" PBWidth="2058" Width="450" TabOrder="2" X="51" Y="37" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true" />
+                </Canvas>
+            </pbwpf:TabPage>
+        </pbwpf:Tab>
+        <pbwpf:DataWindow Name="dw_project_driven_actuals" DataObject="d_project_driven_actuals" PBHeight="1188" Height="296" PBWidth="2057" Width="449" TabOrder="20" Visible="false" X="114" Y="180" BorderStyle="stylelowered" LiveScroll="true" PBVScrollBar="true"></pbwpf:DataWindow>
+        <pbwpf:CommandButton Name="cb_apply" TabOrder="50" Text="_Apply" X="2085" Y="1496" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" PBWidth="352" Width="76" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:CommandButton Name="cb_cancel" Cancel="true" TabOrder="40" Text="Cancel" X="1701" Y="1496" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" PBWidth="352" Width="76" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+        <pbwpf:CommandButton Name="cb_ok" Default="true" TabOrder="30" Text="OK" X="1317" Y="1496" FaceName="MS Sans Serif" FontPitch="variable" PBFontFamily="swiss" PBHeight="92" Height="22" PBWidth="352" Width="76" TextSize="-8" Weight="400"></pbwpf:CommandButton>
+    </Canvas>
+</pbwpf:Window>

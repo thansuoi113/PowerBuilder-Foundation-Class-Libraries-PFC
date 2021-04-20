@@ -1,0 +1,15 @@
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\bin\Debug\pfcsecurity_scanner.exe
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\bin\Debug\pfcsecurity_scanner.pdb
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\ResolveAssemblyReference.cache
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_w_pfcsecurity_objectlist.baml
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_w_pfcsecurity_targetselection.baml
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_pfcscanner_u_dw.baml
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_base_librarylist.baml
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_w_pfcsecurity_objectlist.g.cs
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_w_pfcsecurity_targetselection.g.cs
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_pfcscanner_u_dw.g.cs
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecsc_base_librarylist.g.cs
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner_MarkupCompile.cache
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.g.resources
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.exe
+C:\pfc\12.Net\security\pfcsecsc\Security Scanner.out\obj\Debug\pfcsecurity_scanner.pdb
