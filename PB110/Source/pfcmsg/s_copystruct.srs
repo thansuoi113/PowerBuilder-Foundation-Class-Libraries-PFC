@@ -1,0 +1,14 @@
+HA$PBExportHeader$s_copystruct.srs
+$PBExportComments$Structure used in copy/paste functionality
+global type s_copystruct from structure
+	string		s_msgid
+	string		s_msgtitle
+	string		s_msgtext
+	string		s_msgicon
+	string		s_msgbutton
+	integer		i_msgdefaultbutton
+	integer		i_msgseverity
+	string		s_msgprint
+	string		s_msguserinput
+end type
+

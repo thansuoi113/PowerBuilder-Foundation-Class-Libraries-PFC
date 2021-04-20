@@ -1,0 +1,1162 @@
+HA$PBExportHeader$m_msgs_frame.srm
+$PBExportComments$Frame menu
+forward
+global type m_msgs_frame from menu
+end type
+type m_file from menu within m_msgs_frame
+end type
+type m_openmessagemanager from menu within m_file
+end type
+type m_closemessagemanagersheet from menu within m_file
+end type
+type m_-233 from menu within m_file
+end type
+type m_reload from menu within m_file
+end type
+type m_dash11 from menu within m_file
+end type
+type m_insertmessage from menu within m_file
+end type
+type m_deletemessage from menu within m_file
+end type
+type m_savechanges from menu within m_file
+end type
+type m_dash12 from menu within m_file
+end type
+type m_exit from menu within m_file
+end type
+type m_file from menu within m_msgs_frame
+m_openmessagemanager m_openmessagemanager
+m_closemessagemanagersheet m_closemessagemanagersheet
+m_-233 m_-233
+m_reload m_reload
+m_dash11 m_dash11
+m_insertmessage m_insertmessage
+m_deletemessage m_deletemessage
+m_savechanges m_savechanges
+m_dash12 m_dash12
+m_exit m_exit
+end type
+type m_edit from menu within m_msgs_frame
+end type
+type m_cut from menu within m_edit
+end type
+type m_copy from menu within m_edit
+end type
+type m_paste from menu within m_edit
+end type
+type m_-1 from menu within m_edit
+end type
+type m_copymessage from menu within m_edit
+end type
+type m_pastemessage from menu within m_edit
+end type
+type m_-4 from menu within m_edit
+end type
+type m_find from menu within m_edit
+end type
+type m_replace from menu within m_edit
+end type
+type m_edit from menu within m_msgs_frame
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_-1 m_-1
+m_copymessage m_copymessage
+m_pastemessage m_pastemessage
+m_-4 m_-4
+m_find m_find
+m_replace m_replace
+end type
+type m_tools from menu within m_msgs_frame
+end type
+type m_testcurrentmessage from menu within m_tools
+end type
+type m_- from menu within m_tools
+end type
+type m_sort from menu within m_tools
+end type
+type m_filter from menu within m_tools
+end type
+type m_-3 from menu within m_tools
+end type
+type m_undelete from menu within m_tools
+end type
+type m_-2 from menu within m_tools
+end type
+type m_importrows from menu within m_tools
+end type
+type m_exportrows from menu within m_tools
+end type
+type m_-5 from menu within m_tools
+end type
+type m_customizetoolbars from menu within m_tools
+end type
+type m_tools from menu within m_msgs_frame
+m_testcurrentmessage m_testcurrentmessage
+m_- m_-
+m_sort m_sort
+m_filter m_filter
+m_-3 m_-3
+m_undelete m_undelete
+m_-2 m_-2
+m_importrows m_importrows
+m_exportrows m_exportrows
+m_-5 m_-5
+m_customizetoolbars m_customizetoolbars
+end type
+type m_window from menu within m_msgs_frame
+end type
+type m_cascade from menu within m_window
+end type
+type m_tilehorizontal from menu within m_window
+end type
+type m_tilevertical from menu within m_window
+end type
+type m_layer from menu within m_window
+end type
+type m_dash51 from menu within m_window
+end type
+type m_minimizeall from menu within m_window
+end type
+type m_undoarrange from menu within m_window
+end type
+type m_window from menu within m_msgs_frame
+m_cascade m_cascade
+m_tilehorizontal m_tilehorizontal
+m_tilevertical m_tilevertical
+m_layer m_layer
+m_dash51 m_dash51
+m_minimizeall m_minimizeall
+m_undoarrange m_undoarrange
+end type
+type m_help from menu within m_msgs_frame
+end type
+type m_helptopics from menu within m_help
+end type
+type m_dash61 from menu within m_help
+end type
+type m_about from menu within m_help
+end type
+type m_help from menu within m_msgs_frame
+m_helptopics m_helptopics
+m_dash61 m_dash61
+m_about m_about
+end type
+end forward
+
+global type m_msgs_frame from menu
+m_file m_file
+m_edit m_edit
+m_tools m_tools
+m_window m_window
+m_help m_help
+end type
+global m_msgs_frame m_msgs_frame
+
+forward prototypes
+public function integer of_sendmessage (string as_message)
+end prototypes
+
+public function integer of_sendmessage (string as_message);//////////////////////////////////////////////////////////////////////////////
+//
+//	Function:  of_SendMessage
+//
+//	Access:  public
+//
+//	Arguments:		
+//	as_message  message (event notification) to be sent
+//
+//	Returns:  integer
+//	 1 = Message successfully sent
+//	-1 = message could not be sent (use debug object for more info)
+//
+//	Description:
+//	Sends a specified message (event notification) to a receiving window 
+//	through the pfc_messagerouter event.
+//
+//	Sequence:
+//	If application is MDI:
+//	1) Active MDI sheet pfc_messagerouter event.
+//	2) MDI Frame Window pfc_messagerouter event.
+//
+//	Application is SWI:
+//	1) ParentWindow pfc_messagerouter event.
+//
+//////////////////////////////////////////////////////////////////////////////
+//
+//	Revision History
+//
+//	Version
+//	5.0   Initial version
+//
+//////////////////////////////////////////////////////////////////////////////
+//
+/*
+ * Open Source PowerBuilder Foundation Class Libraries
+ *
+ * Copyright (c) 2004-2005, All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted in accordance with the GNU Lesser General
+ * Public License Version 2.1, February 1999
+ *
+ * http://www.gnu.org/copyleft/lesser.html
+ *
+ * ====================================================================
+ *
+ * This software consists of voluntary contributions made by many
+ * individuals and was originally based on software copyright (c) 
+ * 1996-2004 Sybase, Inc. http://www.sybase.com.  For more
+ * information on the Open Source PowerBuilder Foundation Class
+ * Libraries see http://pfc.codexchange.sybase.com
+*/
+//
+//////////////////////////////////////////////////////////////////////////////
+
+integer		li_rc = -1
+window		lw_frame
+window		lw_sheet
+n_cst_menu	lnv_menu
+
+// Check arguments
+if IsNull (as_message) or Len (Trim (as_message)) = 0 then
+	return li_rc
+end if
+
+// Determine if application is MDI by getting frame window
+lnv_menu.of_GetMDIFrame (this, lw_frame)   
+if IsValid (lw_frame) then
+
+	// Try sending the message to the active MDI sheet
+	lw_sheet = lw_frame.GetActiveSheet()
+	if IsValid (lw_sheet) then
+		li_rc = lw_sheet.dynamic event pfc_messagerouter (as_message)
+	end if
+
+	if li_rc <> 1 then
+		// Try sending the message to the frame
+		li_rc = lw_frame.dynamic event pfc_messagerouter (as_message)
+	end if
+else
+	// Try sending the message to the parentwindow
+	if IsValid (parentwindow) then
+		li_rc = parentwindow.dynamic event pfc_messagerouter (as_message)
+	end if
+end if
+
+if IsNull (li_rc) then
+	li_rc = -1
+end if
+
+// Debug message if message could not be received
+if li_rc = -1 and IsValid (gnv_app.inv_debug) then
+	MessageBox (gnv_app.inv_debug.ics_pfc, "Message " + as_message + &
+					" was not received.")
+end if
+
+return li_rc
+
+end function
+
+on m_msgs_frame.create
+m_msgs_frame=this
+this.m_file=create m_file
+this.m_edit=create m_edit
+this.m_tools=create m_tools
+this.m_window=create m_window
+this.m_help=create m_help
+this.Item[]={this.m_file, &
+this.m_edit, &
+this.m_tools, &
+this.m_window, &
+this.m_help}
+end on
+
+on m_msgs_frame.destroy
+destroy(this.m_file)
+destroy(this.m_edit)
+destroy(this.m_tools)
+destroy(this.m_window)
+destroy(this.m_help)
+end on
+
+type m_file from menu within m_msgs_frame
+m_openmessagemanager m_openmessagemanager
+m_closemessagemanagersheet m_closemessagemanagersheet
+m_-233 m_-233
+m_reload m_reload
+m_dash11 m_dash11
+m_insertmessage m_insertmessage
+m_deletemessage m_deletemessage
+m_savechanges m_savechanges
+m_dash12 m_dash12
+m_exit m_exit
+end type
+
+on m_file.create
+this.Text="&File"
+this.Microhelp="Close current sheet"
+this.ToolBarItemText="Close"
+this.MergeOption=FileMenu!
+this.m_openmessagemanager=create m_openmessagemanager
+this.m_closemessagemanagersheet=create m_closemessagemanagersheet
+this.m_-233=create m_-233
+this.m_reload=create m_reload
+this.m_dash11=create m_dash11
+this.m_insertmessage=create m_insertmessage
+this.m_deletemessage=create m_deletemessage
+this.m_savechanges=create m_savechanges
+this.m_dash12=create m_dash12
+this.m_exit=create m_exit
+this.Item[]={this.m_openmessagemanager, &
+this.m_closemessagemanagersheet, &
+this.m_-233, &
+this.m_reload, &
+this.m_dash11, &
+this.m_insertmessage, &
+this.m_deletemessage, &
+this.m_savechanges, &
+this.m_dash12, &
+this.m_exit}
+end on
+
+on m_file.destroy
+destroy(this.m_openmessagemanager)
+destroy(this.m_closemessagemanagersheet)
+destroy(this.m_-233)
+destroy(this.m_reload)
+destroy(this.m_dash11)
+destroy(this.m_insertmessage)
+destroy(this.m_deletemessage)
+destroy(this.m_savechanges)
+destroy(this.m_dash12)
+destroy(this.m_exit)
+end on
+
+type m_openmessagemanager from menu within m_file
+end type
+
+event clicked;setpointer(hourglass!)
+of_sendmessage("pfc_open")
+end event
+
+on m_openmessagemanager.create
+this.Text="&Open Message Manager Sheet~tCtrl+O"
+this.Microhelp="Open the message manager main sheet"
+this.ToolBarItemName="Open!"
+this.ToolBarItemText="Open"
+this.ToolBarItemOrder=3
+this.Shortcut=335
+end on
+
+type m_closemessagemanagersheet from menu within m_file
+end type
+
+event clicked;SetPointer (Hourglass!)
+of_sendmessage("pfc_close")
+end event
+
+on m_closemessagemanagersheet.create
+this.Text="&Close Message Manager Sheet~tCtrl+W"
+this.Microhelp="Close Sheet"
+this.ToolBarItemName="Custom039!"
+this.ToolBarItemText="Close"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=2
+this.Shortcut=343
+end on
+
+type m_-233 from menu within m_file
+end type
+
+on m_-233.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_reload from menu within m_file
+end type
+
+event clicked;SetPointer (hourglass!)
+of_SendMessage ("ue_reload")
+end event
+
+on m_reload.create
+this.Text="&Reload Messages~tCtrl+R"
+this.Microhelp="Reload the messages from the table"
+this.ToolBarItemName="CheckOut5!"
+this.ToolBarItemText="Reload"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=10
+this.ToolBarItemSpace=2
+this.Shortcut=338
+end on
+
+type m_dash11 from menu within m_file
+end type
+
+on m_dash11.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_insertmessage from menu within m_file
+end type
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage("ue_insert")
+end event
+
+on m_insertmessage.create
+this.Text="&Insert Message~tCtrl+I"
+this.Microhelp="Insert Message"
+this.ToolBarItemName="Insert!"
+this.ToolBarItemText="Insert"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=21
+this.ToolBarItemSpace=2
+this.Shortcut=329
+end on
+
+type m_deletemessage from menu within m_file
+end type
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage("ue_delete")
+end event
+
+on m_deletemessage.create
+this.Text="&Delete Message~tCtrl+D"
+this.Microhelp="Delete Message"
+this.ToolBarItemName="Clear!"
+this.ToolBarItemText="Delete"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=23
+this.Shortcut=324
+end on
+
+type m_savechanges from menu within m_file
+end type
+
+event clicked;SetPointer (hourglass!)
+of_SendMessage ("pfc_save")
+end event
+
+on m_savechanges.create
+this.Text="&Save Changes~tCtrl+S"
+this.Microhelp="Save Your Changes"
+this.ToolBarItemName="Save!"
+this.ToolBarItemText="Save"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=25
+this.Shortcut=339
+end on
+
+type m_dash12 from menu within m_file
+end type
+
+on m_dash12.create
+this.Text="-"
+end on
+
+type m_exit from menu within m_file
+end type
+
+event clicked;gnv_app.event pfc_exit()
+end event
+
+on m_exit.create
+this.Text="E&xit~tAlt+F4"
+this.Microhelp="Quits the application"
+this.ToolBarItemName="Exit!"
+this.ToolBarItemText="Exit"
+this.ShiftToRight=true
+this.MenuItemType=MenuItemTypeExit!
+this.ToolBarItemOrder=250
+this.ToolBarItemSpace=2
+this.Shortcut=627
+end on
+
+type m_edit from menu within m_msgs_frame
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_-1 m_-1
+m_copymessage m_copymessage
+m_pastemessage m_pastemessage
+m_-4 m_-4
+m_find m_find
+m_replace m_replace
+end type
+
+on m_edit.create
+this.Text="&Edit"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.m_cut=create m_cut
+this.m_copy=create m_copy
+this.m_paste=create m_paste
+this.m_-1=create m_-1
+this.m_copymessage=create m_copymessage
+this.m_pastemessage=create m_pastemessage
+this.m_-4=create m_-4
+this.m_find=create m_find
+this.m_replace=create m_replace
+this.Item[]={this.m_cut, &
+this.m_copy, &
+this.m_paste, &
+this.m_-1, &
+this.m_copymessage, &
+this.m_pastemessage, &
+this.m_-4, &
+this.m_find, &
+this.m_replace}
+end on
+
+on m_edit.destroy
+destroy(this.m_cut)
+destroy(this.m_copy)
+destroy(this.m_paste)
+destroy(this.m_-1)
+destroy(this.m_copymessage)
+destroy(this.m_pastemessage)
+destroy(this.m_-4)
+destroy(this.m_find)
+destroy(this.m_replace)
+end on
+
+type m_cut from menu within m_edit
+end type
+
+on m_cut.create
+this.Text="Cu&t~tCtrl+X"
+this.Microhelp="Moves the selection to the Clipboard"
+this.ToolBarItemName="Cut!"
+this.ToolBarItemText="Cut"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=73
+this.ToolBarItemSpace=2
+this.Shortcut=344
+end on
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage ("pfc_cut")
+end event
+
+type m_copy from menu within m_edit
+end type
+
+on m_copy.create
+this.Text="&Copy~tCtrl+C"
+this.Microhelp="Copies the selection to the Clipboard"
+this.ToolBarItemName="Copy!"
+this.ToolBarItemText="Copy"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=75
+this.Shortcut=323
+end on
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage ("pfc_copy")
+end event
+
+type m_paste from menu within m_edit
+end type
+
+on m_paste.create
+this.Text="&Paste~tCtrl+V"
+this.Microhelp="Inserts Clipboard contents at current insertion point"
+this.ToolBarItemName="Paste!"
+this.ToolBarItemText="Paste"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=80
+this.Shortcut=342
+end on
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage ("pfc_paste")
+end event
+
+type m_-1 from menu within m_edit
+end type
+
+on m_-1.create
+this.Text="-"
+end on
+
+type m_copymessage from menu within m_edit
+end type
+
+on m_copymessage.create
+this.Text="C&opy Message"
+this.Microhelp="Copy an entire message"
+this.ToolBarItemText="Copy Message"
+end on
+
+event clicked;SetPointer(HourGlass!)
+of_sendmessage("ue_copy")
+end event
+
+type m_pastemessage from menu within m_edit
+end type
+
+on m_pastemessage.create
+this.Text="Paste &Message"
+this.Microhelp="Paste an entire message to a new row"
+this.ToolBarItemText="Paste Message"
+end on
+
+event clicked;SetPointer(HourGlass!)
+of_sendmessage("ue_paste")
+end event
+
+type m_-4 from menu within m_edit
+end type
+
+on m_-4.create
+this.Text="-"
+end on
+
+type m_find from menu within m_edit
+end type
+
+event clicked;SetPointer(Hourglass!)
+of_sendmessage("pfc_finddlg")
+end event
+
+on m_find.create
+this.Text="&Find~tCtrl+F"
+this.Microhelp="Find a message in the list"
+this.ToolBarItemName="Find!"
+this.ToolBarItemText="Find"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.Shortcut=326
+end on
+
+type m_replace from menu within m_edit
+end type
+
+event clicked;SetPointer(Hourglass!)
+of_sendmessage("pfc_replacedlg")
+end event
+
+on m_replace.create
+this.Text="&Replace~tCtrl+H"
+this.Microhelp="Find/Replace a field"
+this.ToolBarItemName="Replace!"
+this.ToolBarItemText="Replace"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.Shortcut=328
+end on
+
+type m_tools from menu within m_msgs_frame
+m_testcurrentmessage m_testcurrentmessage
+m_- m_-
+m_sort m_sort
+m_filter m_filter
+m_-3 m_-3
+m_undelete m_undelete
+m_-2 m_-2
+m_importrows m_importrows
+m_exportrows m_exportrows
+m_-5 m_-5
+m_customizetoolbars m_customizetoolbars
+end type
+
+on m_tools.create
+this.Text="&Tools"
+this.Visible=false
+this.ToolBarItemVisible=false
+this.m_testcurrentmessage=create m_testcurrentmessage
+this.m_-=create m_-
+this.m_sort=create m_sort
+this.m_filter=create m_filter
+this.m_-3=create m_-3
+this.m_undelete=create m_undelete
+this.m_-2=create m_-2
+this.m_importrows=create m_importrows
+this.m_exportrows=create m_exportrows
+this.m_-5=create m_-5
+this.m_customizetoolbars=create m_customizetoolbars
+this.Item[]={this.m_testcurrentmessage, &
+this.m_-, &
+this.m_sort, &
+this.m_filter, &
+this.m_-3, &
+this.m_undelete, &
+this.m_-2, &
+this.m_importrows, &
+this.m_exportrows, &
+this.m_-5, &
+this.m_customizetoolbars}
+end on
+
+on m_tools.destroy
+destroy(this.m_testcurrentmessage)
+destroy(this.m_-)
+destroy(this.m_sort)
+destroy(this.m_filter)
+destroy(this.m_-3)
+destroy(this.m_undelete)
+destroy(this.m_-2)
+destroy(this.m_importrows)
+destroy(this.m_exportrows)
+destroy(this.m_-5)
+destroy(this.m_customizetoolbars)
+end on
+
+type m_testcurrentmessage from menu within m_tools
+end type
+
+on m_testcurrentmessage.create
+this.Text="&Test Current Message~tCtrl+T"
+this.Microhelp="Tests the current message"
+this.ToolBarItemName="Continue!"
+this.ToolBarItemText="Test"
+this.ShiftToRight=true
+this.ToolBarItemVisible=false
+this.Shortcut=340
+end on
+
+event clicked;SetPointer (hourglass!)
+of_SendMessage ("ue_test")
+end event
+
+type m_- from menu within m_tools
+end type
+
+on m_-.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_sort from menu within m_tools
+end type
+
+event clicked;SetPointer(HourGlass!)
+of_SendMessage("ue_sort")
+end event
+
+on m_sort.create
+this.Text="&Sort"
+this.Microhelp="Sort the message list"
+this.ToolBarItemText="Sort"
+this.Visible=false
+end on
+
+type m_filter from menu within m_tools
+end type
+
+event clicked;SetPointer(HourGlass!)
+of_SendMessage("ue_filter")
+end event
+
+on m_filter.create
+this.Text="&Filter"
+this.Microhelp="Filter the message list"
+this.ToolBarItemText="Filter"
+this.Visible=false
+end on
+
+on m_filter.destroy
+end on
+
+type m_-3 from menu within m_tools
+end type
+
+on m_-3.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_undelete from menu within m_tools
+end type
+
+event clicked;SetPointer(HourGlass!)
+of_SendMessage("pfc_undelete")
+end event
+
+on m_undelete.create
+this.Text="&Undelete"
+this.Microhelp="Undelete a message from the delete buffer"
+this.ToolBarItemText="Undelete"
+this.Visible=false
+end on
+
+type m_-2 from menu within m_tools
+end type
+
+on m_-2.create
+this.Text="-"
+end on
+
+type m_importrows from menu within m_tools
+end type
+
+on m_importrows.create
+this.Text="Import Rows"
+this.Microhelp="Import Rows (tab delimited txt file)"
+this.ToolBarItemName="Import!"
+this.ToolBarItemText="Import Rows"
+this.Visible=false
+this.ToolBarItemVisible=false
+end on
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage("ue_import")
+end event
+
+type m_exportrows from menu within m_tools
+end type
+
+on m_exportrows.create
+this.Text="Export Rows"
+this.Microhelp="Export rows"
+this.ToolBarItemName="Export!"
+this.ToolBarItemText="Export Rows"
+this.Visible=false
+this.ToolBarItemVisible=false
+end on
+
+event clicked;SetPointer(Hourglass!)
+of_SendMessage("ue_export")
+end event
+
+type m_-5 from menu within m_tools
+end type
+
+on m_-5.create
+this.Text="-"
+this.Visible=false
+end on
+
+type m_customizetoolbars from menu within m_tools
+end type
+
+event clicked;SetPointer (hourglass!)
+of_SendMessage ("pfc_toolbars")
+end event
+
+on m_customizetoolbars.create
+this.Text="&Customize Toolbars"
+this.Visible=false
+end on
+
+type m_window from menu within m_msgs_frame
+m_cascade m_cascade
+m_tilehorizontal m_tilehorizontal
+m_tilevertical m_tilevertical
+m_layer m_layer
+m_dash51 m_dash51
+m_minimizeall m_minimizeall
+m_undoarrange m_undoarrange
+end type
+
+on m_window.create
+this.Text="&Window"
+this.Visible=false
+this.ShiftToRight=true
+this.MergeOption=WindowMenu!
+this.ToolBarItemVisible=false
+this.m_cascade=create m_cascade
+this.m_tilehorizontal=create m_tilehorizontal
+this.m_tilevertical=create m_tilevertical
+this.m_layer=create m_layer
+this.m_dash51=create m_dash51
+this.m_minimizeall=create m_minimizeall
+this.m_undoarrange=create m_undoarrange
+this.Item[]={this.m_cascade, &
+this.m_tilehorizontal, &
+this.m_tilevertical, &
+this.m_layer, &
+this.m_dash51, &
+this.m_minimizeall, &
+this.m_undoarrange}
+end on
+
+on m_window.destroy
+destroy(this.m_cascade)
+destroy(this.m_tilehorizontal)
+destroy(this.m_tilevertical)
+destroy(this.m_layer)
+destroy(this.m_dash51)
+destroy(this.m_minimizeall)
+destroy(this.m_undoarrange)
+end on
+
+event selected;//////////////////////////////////////////////////////////////////////////////
+//
+//	Event:  selected
+//
+//	Description:
+//	Enables menu items based on sheet manager service
+//
+//////////////////////////////////////////////////////////////////////////////
+//	
+//	Revision History
+//
+//	Version
+//	5.0   Initial version
+//
+//////////////////////////////////////////////////////////////////////////////
+//
+/*
+ * Open Source PowerBuilder Foundation Class Libraries
+ *
+ * Copyright (c) 2004-2005, All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted in accordance with the GNU Lesser General
+ * Public License Version 2.1, February 1999
+ *
+ * http://www.gnu.org/copyleft/lesser.html
+ *
+ * ====================================================================
+ *
+ * This software consists of voluntary contributions made by many
+ * individuals and was originally based on software copyright (c) 
+ * 1996-2004 Sybase, Inc. http://www.sybase.com.  For more
+ * information on the Open Source PowerBuilder Foundation Class
+ * Libraries see http://pfc.codexchange.sybase.com
+*/
+//
+//////////////////////////////////////////////////////////////////////////////
+
+any				la_rc
+boolean			lb_normal
+integer			li_rc
+integer			li_sheetcount
+integer			li_cnt = 1
+arrangetypes	le_arrange
+n_cst_menu		lnv_menu
+window			lw_obj
+window			lw_sheet[]
+w_frame			lw_frame
+
+// Get frame window
+li_rc = lnv_menu.of_GetMDIFrame (this, lw_obj)
+if li_rc < 0 then
+	return
+end if
+
+// Determine if frame is a PFC frame descendant
+la_rc = lw_obj.dynamic event pfc_descendant()
+if IsNull (la_rc) then
+	return
+end if
+lw_frame = lw_obj
+
+// If sheetmanager service is enabled, allow for undo and minimize capabilities
+if IsValid (lw_frame.inv_sheetmanager) then
+
+	// First determine if there are any nonminimized sheets open
+	li_sheetcount = lw_frame.inv_sheetmanager.of_GetSheets (lw_sheet)
+	do while li_cnt <= li_sheetcount and not lb_normal
+		if lw_sheet[li_cnt].windowstate <> minimized! then
+			lb_normal = true
+		end if
+		li_cnt++
+	loop
+
+	this.m_undoarrange.enabled = true
+	this.m_minimizeall.enabled = lb_normal
+	this.m_cascade.enabled = lb_normal
+	this.m_layer.enabled = lb_normal
+	this.m_tilehorizontal.enabled = lb_normal
+	this.m_tilevertical.enabled = lb_normal
+
+	// Get current arrange state of windows and set undo text
+	le_arrange = lw_frame.inv_sheetmanager.of_GetCurrentState()
+	choose case le_arrange
+		case tile!
+			this.m_undoarrange.text = "&Undo Tile Vertical"
+			this.m_undoarrange.microhelp = "Undoes vertical tile arrangement of windows"
+		case tilehorizontal!
+			this.m_undoarrange.text = "&Undo Tile Horizontal"
+			this.m_undoarrange.microhelp = "Undoes horizontal tile arrangement of windows"
+		case cascade!
+			this.m_undoarrange.text = "&Undo Cascade"
+			this.m_undoarrange.microhelp = "Undoes cascaded arrangement of windows"
+		case layer!
+			this.m_undoarrange.text = "&Undo Layer"
+			this.m_undoarrange.microhelp = "Undoes layered arrangement of windows"
+		case icons!
+			this.m_undoarrange.text = "&Undo Minimize All"
+			this.m_undoarrange.microhelp = "Undoes minimization of windows"
+			this.m_cascade.enabled = false
+			this.m_layer.enabled = false
+			this.m_tilehorizontal.enabled = false
+			this.m_tilevertical.enabled = false
+			this.m_minimizeall.enabled = false
+		case else
+			this.m_undoarrange.enabled = false
+			this.m_undoarrange.text = "&Undo"
+			this.m_undoarrange.microhelp = "Undo"
+	end choose
+else
+	this.m_minimizeall.enabled = false
+	this.m_undoarrange.enabled = false
+end if
+
+end event
+
+type m_cascade from menu within m_window
+end type
+
+on m_cascade.create
+this.Text="&Cascade"
+this.Microhelp="Cascade windows so that each title bar is visible"
+this.ToolBarItemName="Cascade!"
+this.ToolBarItemText="Cascade"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=220
+this.ToolBarItemSpace=2
+end on
+
+event clicked;of_SendMessage ("pfc_cascade")
+end event
+
+type m_tilehorizontal from menu within m_window
+end type
+
+on m_tilehorizontal.create
+this.Text="Tile &Horizontal"
+this.Microhelp="Tile windows horizontally so that none are overlapping"
+this.ToolBarItemName="Horizontal!"
+this.ToolBarItemText="Tile Horizontal"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=225
+end on
+
+event clicked;of_SendMessage ("pfc_tilehorizontal")
+end event
+
+type m_tilevertical from menu within m_window
+end type
+
+on m_tilevertical.create
+this.Text="Tile &Vertical"
+this.Microhelp="Tile windows vertically so that none are overlapping"
+this.ToolBarItemName="Tile!"
+this.ToolBarItemText="Tile Vertical"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=230
+end on
+
+event clicked;of_SendMessage ("pfc_tilevertical")
+end event
+
+type m_layer from menu within m_window
+end type
+
+on m_layer.create
+this.Text="&Layer"
+this.Microhelp="Layer windows so that each one completely covers the one below it"
+this.ToolBarItemName="Layer!"
+this.ToolBarItemText="Layer"
+this.ToolBarItemVisible=false
+this.ToolBarItemOrder=235
+end on
+
+event clicked;of_SendMessage ("pfc_layer")
+end event
+
+type m_dash51 from menu within m_window
+end type
+
+on m_dash51.create
+this.Text="-"
+end on
+
+type m_minimizeall from menu within m_window
+end type
+
+on m_minimizeall.create
+this.Text="&Minimize All Windows"
+this.Microhelp="Minimizes all windows"
+end on
+
+event clicked;of_SendMessage ("pfc_minimizeall")
+end event
+
+type m_undoarrange from menu within m_window
+end type
+
+on m_undoarrange.create
+this.Text="&Undo"
+this.Microhelp="Undo"
+end on
+
+event clicked;of_SendMessage ("pfc_undoarrange")
+end event
+
+type m_help from menu within m_msgs_frame
+m_helptopics m_helptopics
+m_dash61 m_dash61
+m_about m_about
+end type
+
+on m_help.create
+this.Text="&Help"
+this.ShiftToRight=true
+this.m_helptopics=create m_helptopics
+this.m_dash61=create m_dash61
+this.m_about=create m_about
+this.Item[]={this.m_helptopics, &
+this.m_dash61, &
+this.m_about}
+end on
+
+on m_help.destroy
+destroy(this.m_helptopics)
+destroy(this.m_dash61)
+destroy(this.m_about)
+end on
+
+type m_helptopics from menu within m_help
+end type
+
+on clicked;of_SendMessage ("pfc_help")
+end on
+
+on m_helptopics.create
+this.Text="&Help Topics"
+this.Microhelp="Displays help topics"
+this.ToolBarItemName="Help!"
+this.ToolBarItemText="Help"
+this.ToolBarItemOrder=255
+this.ToolBarItemSpace=2
+end on
+
+type m_dash61 from menu within m_help
+end type
+
+on m_dash61.create
+this.Text="-"
+this.ShiftToRight=true
+end on
+
+type m_about from menu within m_help
+end type
+
+event clicked;SetPointer (hourglass!)
+gnv_app.of_about()
+
+end event
+
+on m_about.create
+this.Text="&About"
+this.Microhelp="Displays program information"
+this.ToolBarItemText="About"
+this.ShiftToRight=true
+this.MenuItemType=MenuItemTypeAbout!
+end on
+
