@@ -1,0 +1,19 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=alienware)(PORT=1521))(CONNECT_DATA=(SID=oraclea)(SERVER=DEDICATED)(FAILOVER_MODE=(TYPE=SESSION)(METHOD=BASIC)(BACKUP=ORACLEB))(CID=(PROGRAM=C:\Program Files\Sybase\PowerBuilder 11.0\PB110.EXE)(HOST=ALIENWARE)(USER=bruce))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 28-DEC-2008 19:04:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0

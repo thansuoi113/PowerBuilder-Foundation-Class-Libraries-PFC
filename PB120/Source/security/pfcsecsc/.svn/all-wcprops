@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/55411/12.0/security/pfcsecsc
+END
+d_pfcsecurity_allcontrollist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_allcontrollist.srd
+END
+pfcscanner_n_cst_filesrvhpux.sru
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrvhpux.sru
+END
+pfcscanner_n_cst_securityscanner.sru
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_securityscanner.sru
+END
+pfcscanner_n_cst_filesrvunicode.sru
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrvunicode.sru
+END
+w_pfcsecurity_objectlist.srw
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/w_pfcsecurity_objectlist.srw
+END
+d_pfcsecurity_userlookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_userlookup.srd
+END
+d_pfcsecurity_applookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_applookup.srd
+END
+f_setfilesrv.srf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/f_setfilesrv.srf
+END
+d_pfcsecurity_controllist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_controllist.srd
+END
+p_pfcsecurity_scanner_exe.srj
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/60270/12.0/security/pfcsecsc/p_pfcsecurity_scanner_exe.srj
+END
+d_pfcsecurity_templateupdate.srd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_templateupdate.srd
+END
+d_pfcsecurity_groupverify.srd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_groupverify.srd
+END
+pfcsecurity_scanner.sra
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcsecurity_scanner.sra
+END
+pfcscanner_n_ds.sru
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_ds.sru
+END
+pfcscanner_n_cst_filesrvwin32.sru
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrvwin32.sru
+END
+d_pfcsecurity_grouplookup.srd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_grouplookup.srd
+END
+pfcsecsc.pbg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/60271/12.0/security/pfcsecsc/pfcsecsc.pbg
+END
+base_librarylist.sru
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/base_librarylist.sru
+END
+pfcsecsc.pbl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/60272/12.0/security/pfcsecsc/pfcsecsc.pbl
+END
+Security Scanner.pbt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/Security%20Scanner.pbt
+END
+pfcscanner_n_cst_string.sru
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_string.sru
+END
+pfcscanner_u_dw.sru
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_u_dw.sru
+END
+pfcscanner_n_cst_filesrvsol2.sru
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrvsol2.sru
+END
+pfcscanner_n_cst_filesrv.sru
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrv.sru
+END
+pfcsecsc.pbr
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcsecsc.pbr
+END
+pfcscanner_n_cst_filesrvaix.sru
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/pfcscanner_n_cst_filesrvaix.sru
+END
+d_pfcsecurity_objectlist.srd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/d_pfcsecurity_objectlist.srd
+END
+w_pfcsecurity_targetselection.srw
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/55411/12.0/security/pfcsecsc/w_pfcsecurity_targetselection.srw
+END

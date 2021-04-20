@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/55411/12.0/pfcdwsrv
+END
+pfc_n_cst_zoomattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/60203/12.0/pfcdwsrv/pfc_n_cst_zoomattrib.sru
+END
+pfc_n_cst_filterattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_filterattrib.sru
+END
+pfc_w_sortsingle.srw
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_sortsingle.srw
+END
+pfc_n_cst_dwsrv_resizeattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_resizeattrib.sru
+END
+pfc_n_cst_sortattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/60203/12.0/pfcdwsrv/pfc_n_cst_sortattrib.sru
+END
+pfc_n_cst_dwsrv_querymode.sru
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_querymode.sru
+END
+pfc_n_cst_dwsrv_querymodeattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_querymodeattrib.sru
+END
+d_sortmulti.srd
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_sortmulti.srd
+END
+d_valuesdddw.srd
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_valuesdddw.srd
+END
+pfc_n_cst_dwsrv_dropdownsearch.sru
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_dropdownsearch.sru
+END
+pfc_n_cst_dwsrv_dropdownsearchattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_dropdownsearchattrib.sru
+END
+pfc_w_restorerow.srw
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_restorerow.srw
+END
+pfcdwsrv.pbg
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfcdwsrv.pbg
+END
+pfc_n_cst_linkageattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_linkageattrib.sru
+END
+pfc_n_cst_dssrv_multitable.sru
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dssrv_multitable.sru
+END
+d_dwfunction.srd
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_dwfunction.srd
+END
+pfcdwsrv.pbl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/60281/12.0/pfcdwsrv/pfcdwsrv.pbl
+END
+pfc_w_zoom.srw
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_zoom.srw
+END
+pfc_n_cst_dwsrv_multitable.sru
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_multitable.sru
+END
+pfc_n_cst_dssrv_multitableattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dssrv_multitableattrib.sru
+END
+pfc_n_cst_dwsrv_reqcolumn.sru
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_reqcolumn.sru
+END
+pfcdwsrv.pbr
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfcdwsrv.pbr
+END
+pfc_n_cst_dssrv_report.sru
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dssrv_report.sru
+END
+pfc_n_cst_dwsrv_multitableattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_multitableattrib.sru
+END
+pfc_n_cst_dwsrv_linkage.sru
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_n_cst_dwsrv_linkage.sru
+END
+pfc_n_cst_dwsrv_report.sru
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_report.sru
+END
+pfc_n_cst_dssrv.sru
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_n_cst_dssrv.sru
+END
+pfc_w_filtersimple.srw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_filtersimple.srw
+END
+s_svalue.srs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55411/12.0/pfcdwsrv/s_svalue.srs
+END
+pfc_n_cst_dwsrv_rowselection.sru
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_rowselection.sru
+END
+d_filtersimple.srd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_filtersimple.srd
+END
+d_svalue.srd
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_svalue.srd
+END
+pfc_w_sortmulti.srw
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_sortmulti.srw
+END
+pfc_n_cst_dwsrv_find.sru
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_n_cst_dwsrv_find.sru
+END
+pfc_n_cst_dwsrv.sru
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_n_cst_dwsrv.sru
+END
+pfc_n_cst_dwobjectattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwobjectattrib.sru
+END
+pfc_w_filterextended.srw
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_filterextended.srw
+END
+pfc_n_cst_dwsrv_filter.sru
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_filter.sru
+END
+pfc_n_cst_dwsrv_sort.sru
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_sort.sru
+END
+pfc_w_sortdragdrop.srw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/55411/12.0/pfcdwsrv/pfc_w_sortdragdrop.srw
+END
+d_sortdragdrop.srd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_sortdragdrop.srd
+END
+pfc_n_cst_dssrv_printpreview.sru
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dssrv_printpreview.sru
+END
+pfc_n_cst_restorerowattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60203/12.0/pfcdwsrv/pfc_n_cst_restorerowattrib.sru
+END
+d_dwfunctioncategory.srd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_dwfunctioncategory.srd
+END
+pfc_n_cst_dwsrv_printpreview.sru
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_printpreview.sru
+END
+d_columnnames.srd
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_columnnames.srd
+END
+pfc_n_cst_dwsrv_resize.sru
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_resize.sru
+END
+pfc_n_cst_dwsrv_rowmanager.sru
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60202/12.0/pfcdwsrv/pfc_n_cst_dwsrv_rowmanager.sru
+END
+d_columnsdddw.srd
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/55411/12.0/pfcdwsrv/d_columnsdddw.srd
+END

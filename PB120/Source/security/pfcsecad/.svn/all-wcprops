@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/55411/12.0/security/pfcsecad
+END
+s_pfcsecurity_user_data.srs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecad/s_pfcsecurity_user_data.srs
+END
+pfcsecad.pbg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/60277/12.0/security/pfcsecad/pfcsecad.pbg
+END
+pfcsecad.pbl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/60278/12.0/security/pfcsecad/pfcsecad.pbl
+END
+p_pfcsecurity_admin_exe.srj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/60276/12.0/security/pfcsecad/p_pfcsecurity_admin_exe.srj
+END
+pfcsecad.ini
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/55411/12.0/security/pfcsecad/pfcsecad.ini
+END
+m_pfcsecurity_frame.srm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_frame.srm
+END
+d_pfcsecurity_user_lookup_by_group.srd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_user_lookup_by_group.srd
+END
+m_pfcsecurity_master.srm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_master.srm
+END
+w_pfcsecurity_login.srw
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_login.srw
+END
+d_pfcsecurity_display_user_info.srd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_display_user_info.srd
+END
+w_pfcsecurity_reportuser.srw
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_reportuser.srw
+END
+pfcsecurity_admin.pbr
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60278/12.0/security/pfcsecad/pfcsecurity_admin.pbr
+END
+Security Administrator.pbt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecad/Security%20Administrator.pbt
+END
+pfcsecurity_admin.sra
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/55411/12.0/security/pfcsecad/pfcsecurity_admin.sra
+END
+d_pfcsecurity_login_info.srd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_login_info.srd
+END
+m_pfcsecurity_user_mgmt.srm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_user_mgmt.srm
+END
+d_pfcsecurity_user_info.srd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_user_info.srd
+END
+w_pfcsecurity_edituser.srw
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_edituser.srw
+END
+d_pfcsecurity_windows.srd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_windows.srd
+END
+d_pfcsecurity_info_update.srd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_info_update.srd
+END
+w_pfcsecurity_frame.srw
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_frame.srw
+END
+w_pfcsecurity_display_user_info.srd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_display_user_info.srd
+END
+d_pfcsecurity_users.srd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_users.srd
+END
+d_pfcsecurity_report_by_user.srd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_report_by_user.srd
+END
+n_pfcsecurity_appmanager.sru
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/security/pfcsecad/n_pfcsecurity_appmanager.sru
+END
+w_pfcsecurity_templatemgmt.srw
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_templatemgmt.srw
+END
+w_pfcsecurity_reportwindow.srw
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_reportwindow.srw
+END
+w_pfcsecurity_usermgmt.srw
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/60207/12.0/security/pfcsecad/w_pfcsecurity_usermgmt.srw
+END
+d_pfcsecurity_info_user_delete.srd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_info_user_delete.srd
+END
+m_pfcsecurity_reports.srm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_reports.srm
+END
+m_pfcsecurity_template_mgmt.srm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_template_mgmt.srm
+END
+w_pfcsecurity_infomgmt.srw
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/security/pfcsecad/w_pfcsecurity_infomgmt.srw
+END
+d_pfcsecurity_applications.srd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_applications.srd
+END
+d_pfcsecurity_report_by_window.srd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_report_by_window.srd
+END
+d_pfcsecurity_controllistdel.srd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_controllistdel.srd
+END
+m_pfcsecurity_info_mgmt.srm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/security/pfcsecad/m_pfcsecurity_info_mgmt.srm
+END
+d_pfcsecurity_users_update.srd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/security/pfcsecad/d_pfcsecurity_users_update.srd
+END

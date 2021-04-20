@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/55411/12.0/examples/exmutil
+END
+exmutil.pbl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/60259/12.0/examples/exmutil/exmutil.pbl
+END
+n_cst_debug.sru
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/55411/12.0/examples/exmutil/n_cst_debug.sru
+END
+w_debuglog.srw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/55411/12.0/examples/exmutil/w_debuglog.srw
+END
+n_cst_sqlspy.sru
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55411/12.0/examples/exmutil/n_cst_sqlspy.sru
+END
+w_sqlspy.srw
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/55411/12.0/examples/exmutil/w_sqlspy.srw
+END
+exmutil.pbg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/55411/12.0/examples/exmutil/exmutil.pbg
+END

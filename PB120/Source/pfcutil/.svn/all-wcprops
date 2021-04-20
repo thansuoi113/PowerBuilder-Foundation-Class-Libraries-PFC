@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/55411/12.0/pfcutil
+END
+d_dwproperty_linkageargs.srd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_linkageargs.srd
+END
+pfc_w_debuglog.srw
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_w_debuglog.srw
+END
+d_debuglog.srd
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/55411/12.0/pfcutil/d_debuglog.srd
+END
+pfc_u_tab_dwproperty_srv.sru
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60183/12.0/pfcutil/pfc_u_tab_dwproperty_srv.sru
+END
+pfc_w_sqlspy.srw
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_w_sqlspy.srw
+END
+pfc_u_tabpg_dwproperty_srvcalendar2.sru
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvcalendar2.sru
+END
+pfc_u_tabpg_dwproperty_srvlinkage2.sru
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvlinkage2.sru
+END
+pfc_u_tabpg_dwproperty_srvmultitable.sru
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvmultitable.sru
+END
+pfc_n_cst_dwsrv_property.sru
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60184/12.0/pfcutil/pfc_n_cst_dwsrv_property.sru
+END
+pfc_u_tabpg_dwproperty_srvreqcolumn.sru
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvreqcolumn.sru
+END
+d_sqlspyprint.srd
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/55411/12.0/pfcutil/d_sqlspyprint.srd
+END
+pfc_u_tabpg_dwproperty_srvlinkage.sru
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvlinkage.sru
+END
+pfc_u_tabpg_dwproperty_srvreport.sru
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvreport.sru
+END
+pfc_w_dwproperty.srw
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_w_dwproperty.srw
+END
+pfc_u_tabpg_dwproperty_srvrowselection.sru
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvrowselection.sru
+END
+pfc_w_sqlspyinspect.srw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_w_sqlspyinspect.srw
+END
+pfc_u_tabpg_dwproperty_base.sru
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_base.sru
+END
+pfc_w_dwpropertyservices.srw
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_w_dwpropertyservices.srw
+END
+pfc_u_tabpg_dwproperty_srvfind.sru
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvfind.sru
+END
+pfc_n_cst_debug.sru
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/60209/12.0/pfcutil/pfc_n_cst_debug.sru
+END
+d_dwproperty_services.srd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_services.srd
+END
+pfcutil.pbg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/55411/12.0/pfcutil/pfcutil.pbg
+END
+pfc_n_cst_propertyattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60181/12.0/pfcutil/pfc_n_cst_propertyattrib.sru
+END
+pfc_u_tabpg_dwproperty_srvfilter.sru
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvfilter.sru
+END
+pfc_u_tabpg_dwproperty_srvsyntax.sru
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvsyntax.sru
+END
+pfc_n_cst_sqlspy.sru
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/60182/12.0/pfcutil/pfc_n_cst_sqlspy.sru
+END
+pfcutil.pbl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/60289/12.0/pfcutil/pfcutil.pbl
+END
+pfc_u_tabpg_dwproperty_srvsort.sru
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvsort.sru
+END
+d_dwproperty_srvcal.srd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_srvcal.srd
+END
+pfc_u_tabpg_dwproperty_services.sru
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_services.sru
+END
+pfc_u_tabpg_dwproperty_status.sru
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_status.sru
+END
+pfc_u_tabpg_dwproperty_srvcalculator.sru
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvcalculator.sru
+END
+d_dwproperty_srvresize.srd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_srvresize.srd
+END
+pfcutil.pbr
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/55411/12.0/pfcutil/pfcutil.pbr
+END
+pfc_u_tabpg_dwproperty_srvprintpreview.sru
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvprintpreview.sru
+END
+d_dwproperty_dates.srd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_dates.srd
+END
+pfc_u_tab_dwproperty.sru
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tab_dwproperty.sru
+END
+d_dwproperty_multitable.srd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/55411/12.0/pfcutil/d_dwproperty_multitable.srd
+END
+pfc_u_tabpg_dwproperty_srvresize.sru
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvresize.sru
+END
+pfc_u_tabpg_dwproperty_buffers.sru
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_buffers.sru
+END
+pfc_u_tabpg_dwproperty_srvrowmanager.sru
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvrowmanager.sru
+END
+pfc_u_tabpg_dwproperty_srvcalendar.sru
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvcalendar.sru
+END
+pfc_u_tabpg_dwproperty_srvquerymode.sru
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvquerymode.sru
+END
+pfc_n_cst_dwpropertyattrib.sru
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/60180/12.0/pfcutil/pfc_n_cst_dwpropertyattrib.sru
+END
+pfc_u_tabpg_dwproperty_srvdropdownsearch.sru
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/55411/12.0/pfcutil/pfc_u_tabpg_dwproperty_srvdropdownsearch.sru
+END
